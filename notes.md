@@ -61,7 +61,6 @@ HTML is the standard language used to create websites. It consists of a series o
 Extra spaces and new lines in HTML are generally ignored.
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.png)
-
 ### 8. Indentation
 
 Indentation helps keep your code readable. Use the `tab` key to indent your code.
@@ -106,7 +105,7 @@ button {
 </style>
 ```
 
-#### RGB Colors
+### 4. RGB Colors
 
 Colors can be defined using RGB (Red, Green, Blue) values.
 
@@ -114,12 +113,12 @@ Colors can be defined using RGB (Red, Green, Blue) values.
 background-color: rgb(255, 0, 0);
 ```
 
-### 4. Border Radius and Cursor
+### 5. Border Radius and Cursor
 
 - **border-radius**: Defines the roundness of the corners.
 - **cursor**: Defines the type of cursor to be displayed.
 
-### 5. Creating a Join Button
+### 6. Creating a Join Button
 
 ```html
 <button> JOIN </button>
@@ -147,7 +146,7 @@ background-color: rgb(255, 0, 0);
 }
 ```
 
-### 6. Margins
+### 7. Margins
 
 - **margin-right**: Adds space to the right of an element.
 
