@@ -1,46 +1,48 @@
-# Learning HTML :
+# Learning HTML
+
+## Introduction
 
 To create and view websites, you need:
 
 1. A **Web Browser**: Allows you to view and interact with your website.
 2. A **Code Editor**: Helps you write the code for your website.
 
-# HTML: HyperText Markup Language
+## HTML: HyperText Markup Language
 
 HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
 
-# 1.HTML Basics
+## 1. HTML Basics
 
-### File Naming
+### 1. File Naming
 
 - **Save As**: filename.html
 
-### Syntax
+### 2. Syntax
 
 - **Syntax**: The rules of writing code.
 - **Grammar**: The structure and order of elements in HTML.
 
-### HTML Elements
+### 3. HTML Elements
 
-#### Button
+#### 4. Button
 
-```html
+```
 <button> Hello </button>
 ```
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image1.png)
 
-#### Paragraph
+#### 5. Paragraph
 
-```html
+```
 <p> This is a paragraph of text. </p>
 ```
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image2.png)
 
-#### Link to Another Website
+#### 6. Link to Another Website
 
-```html
+```
 <a href="https://www.youtube.com"> Link to YouTube </a>
 ```
 
@@ -48,44 +50,35 @@ HTML is the standard language used to create websites. It consists of a series o
 - **href**: Attribute specifying the URL of the linked page.
 - **target**: Attribute specifying where to open the linked document.
 
-```html
+```
 <a href="https://www.youtube.com" target="_blank"> Link to YouTube </a>
 ```
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image3.png)
 
-### Extra Spaces and New Lines
+### 7. Extra Spaces and New Lines
 
 Extra spaces and new lines in HTML are generally ignored.
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.jpeg)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.png)
 
-### Indentation
+### 8. Indentation
 
 Indentation helps keep your code readable. Use the `tab` key to indent your code.
 
-&nbsp;
-&nbsp;
-
-## TASKS THAT YOU CAN PRACTICE : 
-
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image5.png)
-&nbsp;
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
-
-# 2. CSS Basics : 
+## 2. CSS Basics
 
 **Cascading Style Sheets (CSS)**: Used to change the appearance of HTML elements.
 
-### Applying CSS to Buttons
+### 1. Applying CSS to Buttons
 
-```html
+```
 <button> SUBSCRIBE </button>
 ```
 
-#### CSS
+#### 2. CSS
 
-```css
+```
 <style>
 button {
   background-color: red;
@@ -95,13 +88,13 @@ button {
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image7.png)
 
-### CSS Selectors
+### 3. CSS Selectors
 
 Selectors are used to target HTML elements for styling.
 
 #### Example
 
-```css
+```
 <style>
 button {
   background-color: red;
@@ -113,22 +106,20 @@ button {
 </style>
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image8.png)
-
 #### RGB Colors
 
 Colors can be defined using RGB (Red, Green, Blue) values.
 
-```css
+```
 background-color: rgb(255, 0, 0);
 ```
 
-### Border Radius and Cursor
+### 4. Border Radius and Cursor
 
 - **border-radius**: Defines the roundness of the corners.
 - **cursor**: Defines the type of cursor to be displayed.
 
-### Creating a Join Button
+### 5. Creating a Join Button
 
 ```html
 <button> JOIN </button>
@@ -138,7 +129,7 @@ background-color: rgb(255, 0, 0);
 <button class="subscribe-button"> SUBSCRIBE </button>
 ```
 
-```css
+```
 .subscribe-button {
   background-color: red;
   color: white;
@@ -156,17 +147,17 @@ background-color: rgb(255, 0, 0);
 }
 ```
 
-### Margins
+### 6. Margins
 
 - **margin-right**: Adds space to the right of an element.
 
-```css
+```
 margin-right: 8px;
 ```
 
 #### Example
 
-```css
+```
 .tweet-button {
   background-color: lightblue;
   color: white;
@@ -182,53 +173,52 @@ margin-right: 8px;
 }
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
+## 3. Hovers, Transitions, and Shadows
 
-
-## Hovers, Transitions, and Shadows
-
-### Hover
+### 1. Hover
 
 A pseudo-class used to define the style of an element when the mouse is over it.
 
-```css
+```
 .subscribe-button:hover {
   background-color: white;
 }
 ```
 
-### Active
+### 2. Active
 
 Defines the style of an element when it is being clicked.
 
-```css
+```
 .subscribe-button:active {
   background-color: blue;
 }
 ```
 
-### Opacity
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
+
+### 3. Opacity
 
 Defines the transparency of an element.
 
-```css
+```
 .subscribe-button:active {
   opacity: 0.3;
 }
 ```
 
-### Transitions
+### 4. Transitions
 
 Defines the transition effect for properties.
 
-```css
+```
 transition: opacity 1s;
 ```
 
 #### Example
 
-```css
+```
 .join-button:hover {
   background-color: blue;
   color: white;
@@ -238,26 +228,27 @@ transition: opacity 1s;
 }
 ```
 
-### Transitions in CSS
+### 5. Shadows : 
 
-Transition: A CSS property used to create smooth changes from one state to another.
+Defines the shadows arount the box
 
+#### Example : 
 ```
-transition: opacity 1s;           /* Smoothly changes the opacity over 1 second */
-transition: background-color 1s;  /* Smoothly changes the background color over 1 second */
-transition: color 1s;             /* Smoothly changes the text color over 1 second */
-```
-
-* Note: Always include transition properties in the base CSS class to ensure they apply to the 
-  specified element consistently.
-
-.join-button {
-  transition: opacity 1s;
-  transition: background-color 1s;
-  transition: color 1s;
+.tweet button {
+box-shadow: 0 0 0 black; // takes 4 values
 }
+```
 
-* This ensures that the transitions for opacity, background-color, and color are applied smoothly over 1 second whenever the .join-button class is used.
+1.horizontal positon : 2. vertical position : 3. blur
+if selected 10 then the shadow appears 10 px to the right adn the vertcal poston is 10px from above adn the blur s 10px
+if :   `10px 10px 10px black` is selected
+
+its like this :
+
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/MG3.png)
+
+
+
 
 
 
