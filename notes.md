@@ -74,6 +74,8 @@
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1233.png)
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
 
+<br>
+
 ## 2. CSS Basics :
 
 **Cascading Style Sheets (CSS)**: Used to change the appearance of HTML elements.
