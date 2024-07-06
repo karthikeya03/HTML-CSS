@@ -67,7 +67,7 @@
 
 ### Exercises You Can Practice on HTML :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image5.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1233.png)
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
 
 ## 2. CSS Basics
