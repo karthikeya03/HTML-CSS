@@ -251,7 +251,7 @@ Here's an illustration:
 
 ### Exercises You Can Practice on Hovers, Transitions, and Shadows :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/end.png)
 
 
 
