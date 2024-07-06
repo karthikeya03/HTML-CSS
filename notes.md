@@ -28,7 +28,7 @@
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg%2001.png)
 
-#### 4. Button :
+### 4. Button :
 
 ```
 <button> Hello </button>
@@ -36,7 +36,7 @@
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image1.png)
 
-#### 5. Paragraph :
+### 5. Paragraph :
 
 ```
 <p> This is a paragraph of text. </p>
@@ -44,7 +44,7 @@
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image2.png)
 
-#### 6. Link to Another Website :
+### 6. Link to Another Website :
 
 ```
 <a href="https://www.youtube.com"> Link to YouTube </a>
