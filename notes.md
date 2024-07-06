@@ -61,6 +61,7 @@ HTML is the standard language used to create websites. It consists of a series o
 Extra spaces and new lines in HTML are generally ignored.
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.png)
+
 ### 8. Indentation
 
 Indentation helps keep your code readable. Use the `tab` key to indent your code.
@@ -154,24 +155,7 @@ background-color: rgb(255, 0, 0);
 margin-right: 8px;
 ```
 
-#### Example
-
-```
-.tweet-button {
-  background-color: lightblue;
-  color: white;
-  border: none;
-  border-color: blue;
-  border-width: 1px;
-  height: 36px;
-  width: 100px;
-  border-radius: 2px;
-  font-weight: bold;
-  font-size: 15px;
-  cursor: pointer;
-}
-```
-
+### Exercises You Can Practice on CSS  :
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
 
