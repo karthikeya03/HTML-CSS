@@ -1,13 +1,11 @@
-# Learning HTML
-
-## Introduction
+# Learning HTML :
 
 To create and view websites, you need:
 
 1. A **Web Browser**: Allows you to view and interact with your website.
 2. A **Code Editor**: Helps you write the code for your website.
 
-## HTML: HyperText Markup Language
+# HTML: HyperText Markup Language
 
 HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
 
@@ -69,13 +67,13 @@ Indentation helps keep your code readable. Use the `tab` key to indent your code
 &nbsp;
 &nbsp;
 
-TASKS THAT YOU CAN PRACTICE : 
+## TASKS THAT YOU CAN PRACTICE : 
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image5.png)
 &nbsp;
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
 
-## CSS Basics
+# 2. CSS Basics : 
 
 **Cascading Style Sheets (CSS)**: Used to change the appearance of HTML elements.
 
@@ -240,24 +238,26 @@ transition: opacity 1s;
 }
 ```
 
+### Transitions in CSS
 
-
-
-
-
-
+Transition: A CSS property used to create smooth changes from one state to another.
 
 ```
-transition : opacity 1s;
-transition : background-color : 1s;
-transition : color 1s; // changes the color transition smoothly 
+transition: opacity 1s;           /* Smoothly changes the opacity over 1 second */
+transition: background-color 1s;  /* Smoothly changes the background color over 1 second */
+transition: color 1s;             /* Smoothly changes the text color over 1 second */
 ```
 
-always put transition in base css : lke n .jon-button :
+* Note: Always include transition properties in the base CSS class to ensure they apply to the 
+  specified element consistently.
 
-where ever i added image use this format 
+.join-button {
+  transition: opacity 1s;
+  transition: background-color 1s;
+  transition: color 1s;
+}
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image1.png) change the numbers, if i add image 1 , then make it image 1, if 2 then make 2 like that.
+* This ensures that the transitions for opacity, background-color, and color are applied smoothly over 1 second whenever the .join-button class is used.
 
 
 
