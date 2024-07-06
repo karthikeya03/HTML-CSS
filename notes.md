@@ -445,7 +445,7 @@ text-decoration : underline;
    </style>
 ```
 Here is the illustration : 
-![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.3.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y,3.png)
 
 Output :  `The text will be red `
 
