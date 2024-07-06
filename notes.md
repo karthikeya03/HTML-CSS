@@ -173,6 +173,9 @@ margin-right: 8px;
 }
 ```
 
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
+
 ## 3. Hovers, Transitions, and Shadows
 
 ### 1. Hover
@@ -194,9 +197,6 @@ Defines the style of an element when it is being clicked.
   background-color: blue;
 }
 ```
-
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
 
 ### 3. Opacity
 
@@ -238,17 +238,60 @@ Defines the shadows arount the box
 box-shadow: 0 0 0 black; // takes 4 values
 }
 ```
-
-1.horizontal positon : 2. vertical position : 3. blur
+#### Representatives:
+ `1.horizontal positon : 2. vertical position : 3. blur`
 if selected 10 then the shadow appears 10 px to the right adn the vertcal poston is 10px from above adn the blur s 10px
 if :   `10px 10px 10px black` is selected
 
 its like this :
 
+
+
+
+### 5. Shadows
+In CSS, shadows can enhance the design by adding depth and dimension to elements. The box-shadow property is used to apply shadows to elements such as buttons or divs.
+
+#### Example
+```
+.tweet-button {
+  box-shadow: 0 0 0 black; /* Takes 4 values */
+}
+```
+> Representatives : 
+The box-shadow property takes the following values:
+
+`
+Horizontal position: Determines the horizontal offset of the shadow.
+Vertical position: Determines the vertical offset of the shadow.
+Blur: Specifies the blur radius of the shadow.
+Color: Defines the color of the shadow.
+`
+
+> For instance, if you use 10px 10px 10px black, the shadow will be positioned 10 pixels to the right, 10 pixels down from the element, and have a blur radius of 10 pixels.
+
+Here's an illustration:
+
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/MG3.png)
 
+### 6. RGBA Value :
+The rgba value in CSS is used to define colors with transparency. It is an extension of the RGB color model, where a stands for alpha and represents the opacity level.
 
+#### Example
 
+```
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+```
+
+> This code will create a shadow that is 10 pixels to the right, 10 pixels down, with a blur radius of 10 pixels, and the color will be black with 60% opacity.
+
+Here's an illustration:
+
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg4.png)
+
+### Exercises You Can Practice on Hovers, Transitions, and Shadows :
+Practicing different properties such as hovers, transitions, and shadows will enhance your understanding of CSS and improve your web design skills.
+
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image.png)
 
 
 
