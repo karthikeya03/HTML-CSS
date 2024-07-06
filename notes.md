@@ -223,10 +223,10 @@ transition: opacity 1s;
 > Representatives : 
 The box-shadow property takes the following values:
 
-. `Horizontal position: Determines the horizontal offset of the shadow.`
-. `Vertical position: Determines the vertical offset of the shadow.`
-. `Blur: Specifies the blur radius of the shadow.`
-. `Color: Defines the color of the shadow.`
+. `Horizontal position: Determines the horizontal offset of the shadow.`   <br>
+. `Vertical position: Determines the vertical offset of the shadow.`       <br>
+. `Blur: Specifies the blur radius of the shadow.`                   <br>
+. `Color: Defines the color of the shadow.`           <br>
 
 > For instance, if you use  `10px 10px 10px black`, the shadow will be positioned `10 pixel`s to the `right`, `10 pixels down from the element`, and have a `blur radius` of `10 pixels`.
 
