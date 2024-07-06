@@ -1,6 +1,6 @@
 # Learning HTML
 
-## Introduction
+## Introduction :
 > To create and view websites, you need:
 
 1. A **Web Browser**: Allows you to view and interact with your website.
@@ -13,22 +13,22 @@
 ## HTML: HyperText Markup Language
 > HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
 
-## 1. HTML Basics
+## 1. HTML Basics :
 
 ### 1. File Naming
 
 - **Save As**: filename.html
 
-### 2. Syntax
+### 2. Syntax :
 
 - **Syntax**: The rules of writing code.
 - **Grammar**: The structure and order of elements in HTML.
 
-### 3. HTML Elements
+### 3. HTML Elements :
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg%2001.png)
 
-#### 4. Button
+#### 4. Button :
 
 ```
 <button> Hello </button>
@@ -36,7 +36,7 @@
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image1.png)
 
-#### 5. Paragraph
+#### 5. Paragraph :
 
 ```
 <p> This is a paragraph of text. </p>
@@ -44,7 +44,7 @@
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image2.png)
 
-#### 6. Link to Another Website
+#### 6. Link to Another Website :
 
 ```
 <a href="https://www.youtube.com"> Link to YouTube </a>
@@ -60,12 +60,12 @@
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image3.png)
 
-### 7. Extra Spaces and New Lines
+### 7. Extra Spaces and New Lines :
 > Extra spaces and new lines in HTML are generally ignored.
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.jpeg)
 
-### 8. Indentation
+### 8. Indentation :
 > Indentation helps keep your code readable. Use the `tab` key to indent your code.
 
 
@@ -74,18 +74,18 @@
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1233.png)
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
 
-## 2. CSS Basics
+## 2. CSS Basics :
 
 **Cascading Style Sheets (CSS)**: Used to change the appearance of HTML elements.
 
-### 1. Applying CSS to Buttons
+### 1. Applying CSS to Buttons :
 
 ```
 <button> SUBSCRIBE </button>
 ```
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg2.png)
 
-#### 2. CSS
+#### 2. CSS :
 
 ```
 <style>
@@ -97,10 +97,10 @@ button {
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image7.png)
 
-### 3. CSS Selectors
+### 3. CSS Selectors :
 > Selectors are used to target HTML elements for styling.
 
-#### Example
+#### Example :
 
 ```
 <style>
@@ -114,21 +114,21 @@ button {
 </style>
 ```
 
-### 4. RGB Colors
+### 4. RGB Colors :
 > Colors can be defined using RGB (Red, Green, Blue) values.
 
 ```
 background-color: rgb(255, 0, 0);
 ```
 
-### 5. Border Radius and Cursor
+### 5. Border Radius and Cursor :
 
 - **border-radius**: Defines the roundness of the corners.
 - **cursor**: Defines the type of cursor to be displayed.
 
   ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image8.png)
 
-### 6. Creating a Join Button
+### 6. Creating a Join Button :
 
 ```html
 <button> JOIN </button>
@@ -156,7 +156,7 @@ background-color: rgb(255, 0, 0);
 }
 ```
 
-### 7. Margins
+### 7. Margins :
 
 - **margin-right**: Adds space to the right of an element.
 
@@ -168,9 +168,9 @@ margin-right: 8px;
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
 
-## 3. Hovers, Transitions, and Shadows
+## 3. Hovers, Transitions, and Shadows :
 
-### 1. Hover
+### 1. Hover :
 > A pseudo-class used to define the style of an element when the mouse is over it.
 
 ```
@@ -179,7 +179,7 @@ margin-right: 8px;
 }
 ```
 
-### 2. Active
+### 2. Active :
 > Defines the style of an element when it is being clicked.
 
 ```
@@ -188,7 +188,7 @@ margin-right: 8px;
 }
 ```
 
-### 3. Opacity
+### 3. Opacity :
 > Defines the transparency of an element.
 
 ```
@@ -197,14 +197,14 @@ margin-right: 8px;
 }
 ```
 
-### 4. Transitions
+### 4. Transitions :
 > Defines the transition effect for properties.
 
 ```
 transition: opacity 1s;
 ```
 
-#### Example
+#### Example :
 
 ```
 .join-button:hover {
@@ -215,10 +215,10 @@ transition: opacity 1s;
   opacity: 0.7;
 }
 ```
-### 5. Shadows
+### 5. Shadows :
 > In CSS, shadows can enhance the design by adding depth and dimension to elements. The box-shadow property is used to apply shadows to elements such as buttons or divs.
 
-#### Example
+#### Example :
 ```
 .tweet-button {
   box-shadow: 0 0 0 black; /* Takes 4 values */
@@ -234,14 +234,14 @@ The box-shadow property takes the following values:
 
 > For instance, if you use  `10px 10px 10px black`, the shadow will be positioned `10 pixel`s to the `right`, `10 pixels down from the element`, and have a `blur radius` of `10 pixels`.
 
-Here's an illustration:
+Here's an illustration :
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/MG3.png)
 
 ### 6. RGBA Value :
 > The rgba value in CSS is used to define colors with transparency. It is an extension of the RGB color model, where a stands for alpha and represents the opacity level.
 
-#### Example
+#### Example :
 
 ```
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
@@ -249,7 +249,7 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 
 > This code will create a shadow that is 10 pixels to the right, 10 pixels down, with a blur radius of 10 pixels, and the color will be black with 60% opacity.
 
-Here's an illustration:
+Here's an illustration :
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg4.png)
 
@@ -278,12 +278,12 @@ padding-right : 20px;
 
 ```
 
-# Understanding Margins, Borders, Padding, and Content in CSS
+# Understanding Margins, Borders, Padding, and Content in CSS :
 
 In CSS, the box model is essential for designing and laying out web pages. The following diagram illustrates the relationships between margins, borders, padding, and content:
 
 
-### 1. Box Model Components
+### 1. Box Model Components :
 
 1. **Content**: `The innermost area where text and images are displayed.`                         <br>
 
@@ -296,8 +296,8 @@ In CSS, the box model is essential for designing and laying out web pages. The f
 
 ![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello2.png)
 
-### CSS Example
-
+### CSS Example :
+ 
 ```css
 .element {
   width: 200px;        /* Content width */
@@ -337,7 +337,7 @@ In CSS, the box model is essential for designing and laying out web pages. The f
    <p class = "video-title" > SOME TEXT </p>
 ```
 
-### 2. Align the Font
+### 2. Align the Font :
 > Aligning the font adjusts the position of text within an element.
 For example, to center-align text, you can use the `text-align` property in CSS.
 
@@ -350,7 +350,7 @@ For example, to center-align text, you can use the `text-align` property in CSS.
 <p class="video-title">SOME TEXT</p>
 ```
 
-### 3. Width and Line Height
+### 3. Width and Line Height :
 > Setting the width of a text container can cause the text to wrap to a new line if it exceeds the specified width.
 > The line-height property adds vertical spacing between lines of text.
 <br>
@@ -379,10 +379,10 @@ here is the illustration :
 }
 ```
 
-### 5. Default Paragraph Margins
+### 5. Default Paragraph Margins :
 > By default, paragraphs come with margin on the top and bottom, which creates space between paragraphs.
 
-### 6. CSS Selector Specificity
+### 6. CSS Selector Specificity :
 > In CSS, a more specific selector has a higher priority.
 > For example, a class name selector is more specific than an element name selector.
 
