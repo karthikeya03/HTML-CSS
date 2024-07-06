@@ -253,6 +253,49 @@ Here's an illustration:
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/end.png)
 
+## 4. Chrome DevTools & CSS Box Model : 
+
+### 1. Dev tools : 
+> What are the dev tools? :
+. open the inspect button to look at the developer tools of any website of your choice
+. click on the cursor button on the left most to find different elements adn their css, HTML
+
+### 2. CSS Box model :
+> margin & padding is used to define a box model in CSS
+
+#### Example for padding : 
+```
+padding-left : 30px;
+padding-top : 20px;
+
+```
+
+# Understanding Margins, Borders, Padding, and Content in CSS
+
+In CSS, the box model is essential for designing and laying out web pages. The following diagram illustrates the relationships between margins, borders, padding, and content:
+
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
+
+## Box Model Components
+
+1. **Content**: `The innermost area where text and images are displayed.`                         <br>
+
+2. **Padding**: `The space between the content and the border, adding space inside the border.`                 <br>
+
+3. **Border**: `The line that surrounds the padding and content, forming the element's boundary.`                    <br>
+
+4. **Margin**: `The outermost space, providing distance between the element and other elements.`                <br>
+
+### CSS Example
+
+```css
+.element {
+  width: 200px;        /* Content width */
+  padding: 10px;       /* Space around content */
+  border: 2px solid;   /* Element boundary */
+  margin: 15px;        /* Space outside the border */
+}
+
 
 
 
