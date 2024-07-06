@@ -6,6 +6,10 @@
 1. A **Web Browser**: Allows you to view and interact with your website.
 2. A **Code Editor**: Helps you write the code for your website.
 
+## General Strategy in HTML : 
+1. First write  a `HTML` for the required output
+2. Then style it with  `css`
+
 ## HTML: HyperText Markup Language
 > HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
 
@@ -260,6 +264,8 @@ Here's an illustration:
 . open the inspect button to look at the developer tools of any website of your choice
 . click on the cursor button on the left most to find different elements adn their css, HTML
 
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
+
 ### 2. CSS Box model :
 > margin & padding is used to define a box model in CSS
 
@@ -267,6 +273,8 @@ Here's an illustration:
 ```
 padding-left : 30px;
 padding-top : 20px;
+padding-bottom : 30px;
+padding-right : 20px;
 
 ```
 
@@ -274,9 +282,8 @@ padding-top : 20px;
 
 In CSS, the box model is essential for designing and laying out web pages. The following diagram illustrates the relationships between margins, borders, padding, and content:
 
-![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
 
-## Box Model Components
+### 1. Box Model Components
 
 1. **Content**: `The innermost area where text and images are displayed.`                         <br>
 
@@ -284,7 +291,10 @@ In CSS, the box model is essential for designing and laying out web pages. The f
 
 3. **Border**: `The line that surrounds the padding and content, forming the element's boundary.`                    <br>
 
-4. **Margin**: `The outermost space, providing distance between the element and other elements.`                <br>
+4. **Margin**: `The outermost space, providing distance between the element and other elements.`                <be>
+
+
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello2.png)
 
 ### CSS Example
 
@@ -296,19 +306,165 @@ In CSS, the box model is essential for designing and laying out web pages. The f
   margin: 15px;        /* Space outside the border */
 }
 ```
+> When used padding the text gets automatically adjusted with the box model rather than using height and width.
+> It is recommended to use padding
+
+### 2. vertical align : top 
+> aligns everything to the top
 
 
+ ### Exercises You Can Practice DevTools & CSS Box Models on :
+
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1.1.png)                 <br>
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1.png)
 
 
+## 5. How to style text : 
 
+1. go to supersimple.dev/excercises/text : for text 
 
+   ### 1. To add changes to the font :
+   > changes the font
+```
+ <style> 
+     .video.title {
+       font-family : arial; // changes the font
+       font-size : 30px; // increases or decreases the font size
+       font-weight : bold; // changes the font bold
+       font-style : italic; // changes to italic
+     }
+   </style>
+   <p class = "video-title" > SOME TEXT </p>
+```
 
+### 2. Align the Font
+> Aligning the font adjusts the position of text within an element.
+For example, to center-align text, you can use the `text-align` property in CSS.
 
+```
+<style> 
+  .video-title {
+    text-align: center; /* Aligns the text to the center */
+  }
+</style>
+<p class="video-title">SOME TEXT</p>
+```
 
+### 3. Width and Line Height
+> Setting the width of a text container can cause the text to wrap to a new line if it exceeds the specified width.
+> The line-height property adds vertical spacing between lines of text.
+<br>
+here is the illustration : 
 
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/z.1.png)
 
+### 4. HTML Entity
+> HTML entities are used to display reserved characters or symbols in HTML.
+> They start with an ampersand (&) and end with a semicolon (;).
+> For example, &amp; represents the ampersand symbol (&), and &lt; represents the less-than sign (<).
+<br>
+<p>Use &amp; to represent an ampersand (&).</p>
+<p>Use &lt; to represent a less-than sign (<).</p>
+<p>Use &gt; to represent a greater-than sign (>).</p>
 
+#### Example : 
 
+```
+<p class="video-stats" 3.4 views `&#183` (HTML entity code for dot) 
+  Talking Tech and AI With google CEO Sundar Pichai!
+  </p>
+.video-stats
+{
+// add desired code
+}
+```
+
+### 5. Default Paragraph Margins
+> By default, paragraphs come with margin on the top and bottom, which creates space between paragraphs.
+
+### 6. CSS Selector Specificity
+> In CSS, a more specific selector has a higher priority.
+> For example, a class name selector is more specific than an element name selector.
+
+```
+/* Element name selector */
+p {
+  color: blue;
+}
+
+/* Class name selector */
+.highlight {
+  color: red;
+}
+```
+<br>
+ 
+    `Class selector > Name Selector`
+<br>
+In this example, if a paragraph (<p>) has the class highlight, the text will be red because the class name selector (.highlight) is more specific and takes priority over the element name selector 
+
+```
+<p class="highlight">This text will be red.</p>
+<p>This text will be blue.</p>
+```
+
+### 7. Text Decoration : 
+> The text-decoration property in CSS is used to add decorative elements to text, such as underlines, overlines, and strikethroughs.
+
+Example: 
+```
+.highlight
+{
+text-decoration : underline;
+}
+```
+
+### 8. Text element : 
+> Text elements in HTML are used to format and display text in specific ways. Here are some common text elements:
+1. Strong element : creates bold text on the webpage :
+   here is the illustration :
+   ![strong](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.1.png)
+   
+3. u element : creates text that is underlined
+    here is the illustration :
+   ![u](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.2.png)
+
+5. span element : give it any class adn style it ourselves :
+    ` <span> Hello </span> `
+   example :
+   
+``` 
+   <span class = "span-edit"> The text that has to be edited </span>
+   <style> 
+     .span-edit
+     {
+   color : red;
+     }
+   </style>
+```
+Here is the illustration : 
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.3.png)
+
+Output :  `The text will be red `
+
+### 9. Add margin to a text element : 
+> Adding margin to a text element creates space around the element. For example, you can add a left margin to a span element to move it to the right.
+
+``` 
+   <span class = "span-edit"> The text that has to be edited </span>
+   <style> 
+     .span-edit
+     {
+   color : red;
+   margin-left : 20px; // adds margin to the left
+     }
+   </style>
+```
+
+### Exercises You Can Practice on Text Styles :
+
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.4.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.5.png)
 
 
 
