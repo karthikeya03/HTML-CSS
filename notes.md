@@ -22,7 +22,7 @@
 
 ### 3. HTML Elements
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg01.png) 
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg%2001.png)
 
 #### 4. Button
 
