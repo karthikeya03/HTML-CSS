@@ -1,15 +1,13 @@
 # Learning HTML
 
 ## Introduction
-
-To create and view websites, you need:
+> To create and view websites, you need:
 
 1. A **Web Browser**: Allows you to view and interact with your website.
 2. A **Code Editor**: Helps you write the code for your website.
 
 ## HTML: HyperText Markup Language
-
-HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
+> HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
 
 ## 1. HTML Basics
 
@@ -23,6 +21,8 @@ HTML is the standard language used to create websites. It consists of a series o
 - **Grammar**: The structure and order of elements in HTML.
 
 ### 3. HTML Elements
+
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg01.png) 
 
 #### 4. Button
 
@@ -57,14 +57,18 @@ HTML is the standard language used to create websites. It consists of a series o
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image3.png)
 
 ### 7. Extra Spaces and New Lines
+> Extra spaces and new lines in HTML are generally ignored.
 
-Extra spaces and new lines in HTML are generally ignored.
-
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.jpeg)
 
 ### 8. Indentation
+> Indentation helps keep your code readable. Use the `tab` key to indent your code.
 
-Indentation helps keep your code readable. Use the `tab` key to indent your code.
+
+### Exercises You Can Practice on HTML :
+
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image5.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
 
 ## 2. CSS Basics
 
@@ -75,6 +79,7 @@ Indentation helps keep your code readable. Use the `tab` key to indent your code
 ```
 <button> SUBSCRIBE </button>
 ```
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg2.png)
 
 #### 2. CSS
 
@@ -89,8 +94,7 @@ button {
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image7.png)
 
 ### 3. CSS Selectors
-
-Selectors are used to target HTML elements for styling.
+> Selectors are used to target HTML elements for styling.
 
 #### Example
 
@@ -118,6 +122,8 @@ background-color: rgb(255, 0, 0);
 
 - **border-radius**: Defines the roundness of the corners.
 - **cursor**: Defines the type of cursor to be displayed.
+
+  ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image8.png)
 
 ### 6. Creating a Join Button
 
@@ -211,28 +217,8 @@ transition: opacity 1s;
 }
 ```
 
-### 5. Shadows : 
-
-Defines the shadows arount the box
-
-#### Example : 
-```
-.tweet button {
-box-shadow: 0 0 0 black; // takes 4 values
-}
-```
-#### Representatives:
- `1.horizontal positon : 2. vertical position : 3. blur`
-if selected 10 then the shadow appears 10 px to the right adn the vertcal poston is 10px from above adn the blur s 10px
-if :   `10px 10px 10px black` is selected
-
-its like this :
-
-
-
-
 ### 5. Shadows
-In CSS, shadows can enhance the design by adding depth and dimension to elements. The box-shadow property is used to apply shadows to elements such as buttons or divs.
+> In CSS, shadows can enhance the design by adding depth and dimension to elements. The box-shadow property is used to apply shadows to elements such as buttons or divs.
 
 #### Example
 ```
@@ -243,11 +229,10 @@ In CSS, shadows can enhance the design by adding depth and dimension to elements
 > Representatives : 
 The box-shadow property takes the following values:
 
-`
-Horizontal position: Determines the horizontal offset of the shadow.
-Vertical position: Determines the vertical offset of the shadow.
-Blur: Specifies the blur radius of the shadow.
-Color: Defines the color of the shadow.
+`Horizontal position: Determines the horizontal offset of the shadow.`
+`Vertical position: Determines the vertical offset of the shadow.`
+`Blur: Specifies the blur radius of the shadow.`
+`Color: Defines the color of the shadow.`
 `
 
 > For instance, if you use 10px 10px 10px black, the shadow will be positioned 10 pixels to the right, 10 pixels down from the element, and have a blur radius of 10 pixels.
