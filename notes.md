@@ -295,6 +295,7 @@ In CSS, the box model is essential for designing and laying out web pages. The f
   border: 2px solid;   /* Element boundary */
   margin: 15px;        /* Space outside the border */
 }
+```
 
 
 
