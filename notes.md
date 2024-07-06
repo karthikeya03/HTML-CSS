@@ -111,8 +111,7 @@ button {
 ```
 
 ### 4. RGB Colors
-
-Colors can be defined using RGB (Red, Green, Blue) values.
+> Colors can be defined using RGB (Red, Green, Blue) values.
 
 ```
 background-color: rgb(255, 0, 0);
@@ -168,8 +167,7 @@ margin-right: 8px;
 ## 3. Hovers, Transitions, and Shadows
 
 ### 1. Hover
-
-A pseudo-class used to define the style of an element when the mouse is over it.
+> A pseudo-class used to define the style of an element when the mouse is over it.
 
 ```
 .subscribe-button:hover {
@@ -178,8 +176,7 @@ A pseudo-class used to define the style of an element when the mouse is over it.
 ```
 
 ### 2. Active
-
-Defines the style of an element when it is being clicked.
+> Defines the style of an element when it is being clicked.
 
 ```
 .subscribe-button:active {
@@ -188,8 +185,7 @@ Defines the style of an element when it is being clicked.
 ```
 
 ### 3. Opacity
-
-Defines the transparency of an element.
+> Defines the transparency of an element.
 
 ```
 .subscribe-button:active {
@@ -198,8 +194,7 @@ Defines the transparency of an element.
 ```
 
 ### 4. Transitions
-
-Defines the transition effect for properties.
+> Defines the transition effect for properties.
 
 ```
 transition: opacity 1s;
@@ -216,7 +211,6 @@ transition: opacity 1s;
   opacity: 0.7;
 }
 ```
-
 ### 5. Shadows
 > In CSS, shadows can enhance the design by adding depth and dimension to elements. The box-shadow property is used to apply shadows to elements such as buttons or divs.
 
@@ -233,16 +227,15 @@ The box-shadow property takes the following values:
 `Vertical position: Determines the vertical offset of the shadow.`
 `Blur: Specifies the blur radius of the shadow.`
 `Color: Defines the color of the shadow.`
-`
 
-> For instance, if you use 10px 10px 10px black, the shadow will be positioned 10 pixels to the right, 10 pixels down from the element, and have a blur radius of 10 pixels.
+> For instance, if you use  `10px 10px 10px black`, the shadow will be positioned `10 pixel`s to the `right`, `10 pixels down from the element`, and have a `blur radius` of `10 pixels`.
 
 Here's an illustration:
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/MG3.png)
 
 ### 6. RGBA Value :
-The rgba value in CSS is used to define colors with transparency. It is an extension of the RGB color model, where a stands for alpha and represents the opacity level.
+> The rgba value in CSS is used to define colors with transparency. It is an extension of the RGB color model, where a stands for alpha and represents the opacity level.
 
 #### Example
 
@@ -257,7 +250,6 @@ Here's an illustration:
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg4.png)
 
 ### Exercises You Can Practice on Hovers, Transitions, and Shadows :
-Practicing different properties such as hovers, transitions, and shadows will enhance your understanding of CSS and improve your web design skills.
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image.png)
 
