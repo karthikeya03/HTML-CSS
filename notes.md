@@ -11,7 +11,7 @@ To create and view websites, you need:
 
 HTML is the standard language used to create websites. It consists of a series of elements that define the structure and content of web pages.
 
-## HTML Basics
+# 1.HTML Basics
 
 ### File Naming
 
@@ -66,9 +66,13 @@ Extra spaces and new lines in HTML are generally ignored.
 
 Indentation helps keep your code readable. Use the `tab` key to indent your code.
 
+&nbsp;
+&nbsp;
+
 TASKS THAT YOU CAN PRACTICE : 
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image5.png)
+&nbsp;
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
 
 ## CSS Basics
