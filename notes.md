@@ -1,4 +1,4 @@
-# Learning HTML
+# Learning HTML and CSS : 
 
 ## Introduction :
 
@@ -80,7 +80,7 @@
 
 <br>
 
-## 2. CSS Basics :
+# Lession 2. CSS Basics :
 
 **Cascading Style Sheets (CSS)**: Used to change the appearance of HTML elements.
 
@@ -147,6 +147,7 @@ background-color: rgb(255, 0, 0);
 <button class="subscribe-button"> SUBSCRIBE </button>
 ```
 
+code: 
 ```
 .subscribe-button {
   background-color: red;
@@ -178,7 +179,7 @@ margin-right: 8px;
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
 
-## 3. Hovers, Transitions, and Shadows :
+# Lession 3. Hovers, Transitions, and Shadows :
 
 ### 1. Hover :
 
@@ -276,13 +277,13 @@ Here's an illustration :
 
 ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/end.png)
 
-## 4. Chrome DevTools & CSS Box Model :
+# Lession 4. Chrome DevTools & CSS Box Model :
 
 ### 1. Dev tools :
 
 > What are the dev tools? :
-> . open the inspect button to look at the developer tools of any website of your choice
-> . click on the cursor button on the left most to find different elements adn their css, HTML
+> `. open` the inspect button to look at the developer tools of any website of your choice
+> `. click` on the cursor button on the left most to find different elements adn their css, HTML
 
 ![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
 
@@ -302,7 +303,7 @@ padding-right : 20px;
 
 # Understanding Margins, Borders, Padding, and Content in CSS :
 
-In CSS, the box model is essential for designing and laying out web pages. The following diagram illustrates the relationships between margins, borders, padding, and content:
+> In CSS, the box model is essential for designing and laying out web pages. The following diagram illustrates the relationships between margins, borders, padding, and content:
 
 ### 1. Box Model Components :
 
@@ -330,7 +331,7 @@ In CSS, the box model is essential for designing and laying out web pages. The f
 > When used padding the text gets automatically adjusted with the box model rather than using height and width.
 > It is recommended to use padding
 
-### 2. vertical align : top
+### 2. vertical align :  top : 
 
 > aligns everything to the top
 
@@ -339,13 +340,13 @@ In CSS, the box model is essential for designing and laying out web pages. The f
 ![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1.1.png) <br>
 ![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1.png)
 
-## 5. How to style text :
+# Lession 5. How to style text :
 
 1. go to supersimple.dev/excercises/text : for text
 
-   ### 1. To add changes to the font :
+ ### 1. To add changes to the font :
 
-   > changes the font
+> changes the font
 
 ```
  <style>
@@ -427,7 +428,7 @@ p {
 ```
 
 <br>
- 
+
     `Class selector > Name Selector`
 <br>
 In this example, if a paragraph (<p>) has the class highlight, the text will be red because the class name selector (.highlight) is more specific and takes priority over the element name selector
@@ -478,7 +479,7 @@ text-decoration : underline;
 Here is the illustration :
 ![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y,3.png)
 
-Output : `The text will be red `
+> Output : `The text will be red `
 
 ### 9. Add margin to a text element :
 
@@ -501,14 +502,12 @@ Output : `The text will be red `
 ![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.5.png)
 
 
-## 6. The HTML Structure
+# Lession 6. The HTML Structure :
+> HTML provides the basic structure for web pages. Here's a detailed breakdown:
 
-HTML provides the basic structure for web pages. Here's a detailed breakdown:
 
-
-### 1. Document Type Declaration
-
-The `<!DOCTYPE html>` declaration is not an HTML element; it's a special instruction that specifies the HTML version being used. It must be included at the beginning of every HTML document.
+### 1. Document Type Declaration :
+> The `<!DOCTYPE html>` declaration is not an HTML element; it's a special instruction that specifies the HTML version being used. It must be included at the beginning of every HTML document.
 
 ```html
 <!DOCTYPE html>
@@ -516,9 +515,9 @@ The `<!DOCTYPE html>` declaration is not an HTML element; it's a special instruc
 
 ![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.1.png)
 
-### 2. HTML Element
+### 2. HTML Element :
 
-The `<html>` element is the root element of an HTML page. It wraps all the content on the entire page.
+> The `<html>` element is the root element of an HTML page. It wraps all the content on the entire page.
 
 ```html
 <html>
@@ -526,9 +525,9 @@ The `<html>` element is the root element of an HTML page. It wraps all the conte
 </html>
 ```
 
-### 3. Head Element
+### 3. Head Element :
 
-The `<head>` element contains meta-information about the HTML document, such as the title of the page, links to stylesheets, and metadata.
+> The `<head>` element contains meta-information about the HTML document, such as the title of the page, links to stylesheets, and metadata.
 
 ```html
 <head>
@@ -538,17 +537,17 @@ The `<head>` element contains meta-information about the HTML document, such as 
 ```
 ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.2.png)
 
-#### Title Element
+### 4. Title Element :
 
-The `<title>` element defines the title of the HTML document, which appears in the browser's title bar or tab.
+> The `<title>` element defines the title of the HTML document, which appears in the browser's title bar or tab.
 
 ```html
 <title>First Website</title>
 ```
 
-#### Link Element
+### 5. Link Element :
 
-The `<link>` element is used to link external resources to the HTML document, such as stylesheets (`rel="stylesheet"`).
+> The `<link>` element is used to link external resources to the HTML document, such as stylesheets (`rel="stylesheet"`).
 
 ```html
 <link rel="stylesheet" href="style.css">
@@ -557,9 +556,9 @@ The `<link>` element is used to link external resources to the HTML document, su
 here is the image : 
  ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.3.png)
 
-### 4. Body Element
+### 6. Body Element
 
-The `<body>` element contains all the content that is visible on the web page, including text, images, links, and other elements.
+> The `<body>` element contains all the content that is visible on the web page, including text, images, links, and other elements.
 
 ```html
 <body>
@@ -568,9 +567,9 @@ The `<body>` element contains all the content that is visible on the web page, i
 </body>
 ```
 
-#### 5. Visible Content
+### 7. Visible Content
 
-All visible elements, such as headings (`<h1>` to `<h6>`), paragraphs (`<p>`), images (`<img>`), links (`<a>`), and more, are placed within the `<body>` element.
+> All visible elements, such as headings (`<h1>` to `<h6>`), paragraphs (`<p>`), images (`<img>`), links (`<a>`), and more, are placed within the `<body>` element.
 
 ### 6. Void Elements
 
@@ -584,7 +583,7 @@ Void elements in HTML do not have closing tags and are self-closing. Examples in
 
 ### 7. Adding Fonts
 
-To add custom fonts to your HTML document, use the `<link>` tag to include the font stylesheet in the `<head>` section.
+> To add custom fonts to your HTML document, use the `<link>` tag to include the font stylesheet in the `<head>` section.
 
 ```html
 <head>
