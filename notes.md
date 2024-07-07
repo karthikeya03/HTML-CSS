@@ -500,58 +500,127 @@ Output : `The text will be red `
 ![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.4.png)
 ![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.5.png)
 
-# Lession 6. The Html structure :
+
+## 6. The HTML Structure
+
+HTML provides the basic structure for web pages. Here's a detailed breakdown:
+
+
+### 1. Document Type Declaration
+
+The `<!DOCTYPE html>` declaration is not an HTML element; it's a special instruction that specifies the HTML version being used. It must be included at the beginning of every HTML document.
+
+```html
+<!DOCTYPE html>
+```
 
 ![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.1.png)
-<! DOCTYPE HTML>
-not an element ts just a sepcal lne that has adds meanng to the browser
-next : create a html element
-HTML>
-/html>
-nsde html there s : body lement
-HTML>
-body>
-/body>
-/html>
-every html has one html dont body elements only
 
-body : contans all the elements that are vsble
+### 2. HTML Element
 
-![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.1.png)
+The `<html>` element is the root element of an HTML page. It wraps all the content on the entire page.
 
-only element that s not vsble s the ttle element
-ttle > Frst website /ttle>
+```html
+<html>
+  <!-- Content of the page goes here -->
+</html>
+```
 
-what ever s not vsble goes to the head element le style> and title>
+### 3. Head Element
 
-rel :
-rel = " stylesheet"
-t tells the html waht type of file we are linking
+The `<head>` element contains meta-information about the HTML document, such as the title of the page, links to stylesheets, and metadata.
 
-href : what file you're going to
-href =" css.css"
-
+```html
+<head>
+  <title>First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+```
 ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.2.png)
 
-how to ln css to the html file :
+#### Title Element
 
-1. create a css fle name t (.css)
-2. create a html file (.html)
-3. In the head add link tag and rel (relation) then href (what file we are going to
+The `<title>` element defines the title of the HTML document, which appears in the browser's title bar or tab.
 
-   `<link rel = "stylesheet" href =" css.css" >`
+```html
+<title>First Website</title>
+```
 
-   here s the mage :
-   ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.3.png)
-   void elements : elements that dont need a closng tag
-   ex : link area base meta param source trac br
+#### Link Element
 
-put a font in head section in your html to add the font to the website :
+The `<link>` element is used to link external resources to the HTML document, such as stylesheets (`rel="stylesheet"`).
 
-here is the image :
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+here is the image : 
+ ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.3.png)
+
+### 4. Body Element
+
+The `<body>` element contains all the content that is visible on the web page, including text, images, links, and other elements.
+
+```html
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This is the content of my website.</p>
+</body>
+```
+
+#### 5. Visible Content
+
+All visible elements, such as headings (`<h1>` to `<h6>`), paragraphs (`<p>`), images (`<img>`), links (`<a>`), and more, are placed within the `<body>` element.
+
+### 6. Void Elements
+
+Void elements in HTML do not have closing tags and are self-closing. Examples include `<img>`, `<link>`, `<br>`, and `<input>`.
+
+```html
+<img src="image.jpg" alt="Description">
+<br>
+<input type="text" placeholder="Enter your name">
+```
+
+### 7. Adding Fonts
+
+To add custom fonts to your HTML document, use the `<link>` tag to include the font stylesheet in the `<head>` section.
+
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+```
+here is the image : 
 ![font](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.11.png)
 
-here are some excerices you can practice :
-![font](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.12.png)
+#### Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This is the content of my website.</p>
+</body>
+</html>
+```
+
+### Exercises
+
+Here are some exercises you can practice to solidify your understanding:
+
+![HTML Structure Exercises](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.12.png)
+
 
 
