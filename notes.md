@@ -556,7 +556,7 @@ Here is the illustration :
 here is the image : 
  ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.3.png)
 
-### 6. Body Element
+### 6. Body Element :
 
 > The `<body>` element contains all the content that is visible on the web page, including text, images, links, and other elements.
 
@@ -567,11 +567,11 @@ here is the image :
 </body>
 ```
 
-### 7. Visible Content
+### 7. Visible Content :
 
 > All visible elements, such as headings (`<h1>` to `<h6>`), paragraphs (`<p>`), images (`<img>`), links (`<a>`), and more, are placed within the `<body>` element.
 
-### 6. Void Elements
+### 6. Void Elements :
 
 Void elements in HTML do not have closing tags and are self-closing. Examples include `<img>`, `<link>`, `<br>`, and `<input>`.
 
@@ -581,7 +581,7 @@ Void elements in HTML do not have closing tags and are self-closing. Examples in
 <input type="text" placeholder="Enter your name">
 ```
 
-### 7. Adding Fonts
+### 7. Adding Fonts :
 
 > To add custom fonts to your HTML document, use the `<link>` tag to include the font stylesheet in the `<head>` section.
 
@@ -598,7 +598,7 @@ Void elements in HTML do not have closing tags and are self-closing. Examples in
 here is the image : 
 ![font](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.11.png)
 
-#### Example
+#### Example :
 
 ```html
 <!DOCTYPE html>
@@ -615,22 +615,22 @@ here is the image :
 </html>
 ```
 
-### Exercises
+### Exercises :
 
 Here are some exercises you can practice to solidify your understanding:
 
 ![HTML Structure Exercises](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.12.png)
 
 
-# Lesson 7: Images and Text Box
+# Lesson 7: Images and Text Box :
 
-## Images
+## Images :
 
 To add an image in HTML, use the `<img>` tag with the `src` attribute specifying the link of the image:
 
 `<img src="(link of image)">`
 
-### Attributes
+### Attributes :
 
 1.  **Width and Height**: These attributes can be used to change the size of the image.
 
@@ -652,37 +652,37 @@ To add an image in HTML, use the `<img>` tag with the `src` attribute specifying
 
       `img { object-position: right; }`
 
-### Example
+### Example :
 
 ![Image Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
 
-## Input Elements
+## Input Elements :
 
-### Text Input
+### Text Input :
 
 To create a text input field in HTML, use the `<input>` element with the `type` attribute set to `"text"`:
 
 `<input type="text">`
 
-### Checkbox
+### Checkbox :
 
 To create a checkbox in HTML, use the `<input>` element with the `type` attribute set to `"checkbox"`:
 
 `<input type="checkbox">`
 
-### Placeholder
+### Placeholder :
 
 The `placeholder` attribute specifies a short hint that describes the expected value of an input field.
 
 ![Placeholder Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello2.png)
 
-## Exercises
+## Exercises :
 
 Here are some exercises you can practice:
 
 ![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello3.png) ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello4.png)
 
-# Lesson 8: CSS Display Property
+# Lesson 8: CSS Display Property :
 
 There are three types of elements in HTML:
 
@@ -700,13 +700,13 @@ Here is an example to switch from block to inline-block:
 
 ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/e.2.png)
 
-## Exercises
+## Exercises :
 
 Here are some exercises you can practice:
 
 ![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/e4.png)
 
-# Lesson 9: The Div Element
+# Lesson 9: The Div Element :
 
 > The `<div>` tag stands for division. An easy way to understand it is as a box. It's a box.
 
@@ -720,7 +720,7 @@ Here are some exercises you can practice:
 ![dv2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/a1.png)
 
 
-## Exercises
+## Exercises :
 
 Here are some exercises you can practice:
 
@@ -728,4 +728,74 @@ Here are some exercises you can practice:
 ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m2.png) 
 ![Exercise 3](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m1.png) 
 
+# Lesson 10: Nested Layouts Technique :
 
+## 1. Introduction to Layout Techniques :
+
+Mastering layouts in HTML is essential for creating visually appealing and well-structured web pages. There are two primary layout techniques:
+
+1. **Vertical Layout**: This technique involves stacking elements on top of each other, similar to a column. It is useful for creating sections or lists where elements follow a top-to-bottom flow.
+
+2. **Horizontal Layout**: This technique places elements side by side, like a row. It is ideal for creating navigation bars, image galleries, or any structure where elements are aligned next to each other.
+
+![Vertical and Horizontal Layouts](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/121.png)
+
+By combining vertical and horizontal layouts, you can create complex and flexible designs suitable for any website.
+
+## 2. Nested Layouts :
+
+Nested layouts involve placing one type of layout inside another, allowing for intricate and multi-dimensional structures. For example, you can have a horizontal layout that contains a vertical layout, which in turn includes multiple horizontal layouts. This nesting capability is powerful for creating advanced web designs.
+
+Here is an example:
+
+![Nested Layout Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/123.png)
+
+In this example:
+- There is a primary horizontal layout.
+- Inside the primary horizontal layout, there is a vertical layout.
+- Inside the vertical layout, there are three horizontal layouts.
+
+## 3. Practical Applications :
+
+### 4. Creating a Web Page Header :
+
+1. **Horizontal Layout** for the header section, including the logo and navigation menu.
+2. **Vertical Layout** for the navigation items within the header.
+3. **Horizontal Layouts** inside the vertical layout for individual navigation links.
+
+### 5. Structuring a Blog Post :
+
+1. **Vertical Layout** for the main content, including the title, images, and paragraphs.
+2. **Horizontal Layout** for a gallery of images within the blog post.
+3. **Nested Horizontal Layouts** for social media buttons or related articles at the bottom of the post.
+
+## 6. Font Weights :
+
+Font weight refers to the thickness of the characters in a font. Different font weights can be used to create a hierarchy and emphasize important content.
+
+- **Regular Font Weight (400)**: This is the default weight for most text, providing a balanced and readable appearance.
+- **Semi-Bold (500)**: Slightly thicker than regular, used to highlight subheadings or important text without being too overpowering.
+- **Bold (700)**: Significantly thicker, used for main headings, important notices, or any text that needs to stand out prominently.
+
+## 7. Paragraph Margins :
+
+By default, paragraphs (`<p>`) in HTML have a margin on the top and bottom. This margin creates space between paragraphs, making the text easier to read. The default margins can be adjusted using CSS to suit the design requirements of your web page.
+
+### 8. Example CSS to Adjust Paragraph Margins
+
+```css
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+```
+
+## Exercises :
+
+Here are some exercises you can practice:
+
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m3.png) 
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m2.png) 
+
+
+ 
