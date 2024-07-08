@@ -622,4 +622,110 @@ Here are some exercises you can practice to solidify your understanding:
 ![HTML Structure Exercises](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.12.png)
 
 
+# Lesson 7: Images and Text Box
+
+## Images
+
+To add an image in HTML, use the `<img>` tag with the `src` attribute specifying the link of the image:
+
+`<img src="(link of image)">`
+
+### Attributes
+
+1.  **Width and Height**: These attributes can be used to change the size of the image.
+
+    `<img src="(link of image)" width="300" height="200">`
+
+2.  **Object Fit**: This CSS property specifies how the content of a replaced element, such as an `<img>`, should be resized to fit its container.
+
+    - `cover`: The image will be resized to cover the entire container, even if it means cropping the image.
+
+      `img { object-fit: cover; }`
+
+    - `contain`: The image will be resized to be fully contained within the container, maintaining its aspect ratio.
+
+      `img { object-fit: contain; }`
+
+3.  **Object Position**: This CSS property specifies the alignment of the replaced element inside its container.
+
+    - Example: Align the image to the right.
+
+      `img { object-position: right; }`
+
+### Example
+
+![Image Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
+
+## Input Elements
+
+### Text Input
+
+To create a text input field in HTML, use the `<input>` element with the `type` attribute set to `"text"`:
+
+`<input type="text">`
+
+### Checkbox
+
+To create a checkbox in HTML, use the `<input>` element with the `type` attribute set to `"checkbox"`:
+
+`<input type="checkbox">`
+
+### Placeholder
+
+The `placeholder` attribute specifies a short hint that describes the expected value of an input field.
+
+![Placeholder Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello2.png)
+
+## Exercises
+
+Here are some exercises you can practice:
+
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello3.png) ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello4.png)
+
+# Lesson 8: CSS Display Property
+
+There are three types of elements in HTML:
+
+1. **Block Elements**: These elements take up the entire line. For example, a paragraph (`<p>`) by default is a block element.
+2. **Inline-Block Elements**: Examples include `<img>` and `<input>`. These elements take only the required space but behave like block elements.
+3. **Inline Elements**: These elements appear within the line of text.
+
+Here is an example to switch from block to inline-block:
+
+```css
+.video-author {
+  display: inline-block;
+}
+```
+
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/e.2.png)
+
+## Exercises
+
+Here are some exercises you can practice:
+
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/e4.png)
+
+# Lesson 9: The Div Element
+
+> The `<div>` tag stands for division. An easy way to understand it is as a box. It's a box.
+
+1. A `<div>` is like a paragraph; it is a block element.
+
+## Why is it so useful?
+
+- It can contain any other elements inside.
+- We can put any elements in the `<div>`, making them containers.
+
+![dv2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/a1.png)
+
+
+## Exercises
+
+Here are some exercises you can practice:
+
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m3.png) 
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m2.png) 
+![Exercise 3](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m1.png) 
+
 
