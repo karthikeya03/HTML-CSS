@@ -794,8 +794,11 @@ p {
 
 Here are some exercises you can practice:
 
-![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m3.png) 
-![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m2.png) 
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m4.png) 
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m5.png) 
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/fa189431-1756-49bd-b946-3a548f0f7f07)
 
+
+# Lesson 11: CSS grid :
 
  
