@@ -796,9 +796,217 @@ Here are some exercises you can practice:
 
 ![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m4.png) 
 ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m5.png) 
-![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/fa189431-1756-49bd-b946-3a548f0f7f07)
+
+# Lesson 11: CSS Grid :
+
+In this lesson, we will learn about CSS Grid, which allows for perfectly aligned horizontal layouts by using rows and columns.
+
+## What is a Grid? :
+
+A grid is a layout that has rows and columns. Here are some visual examples:
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/467d3066-4736-478c-a8f6-a1d05b699239)
+
+### Example of a 2 by 3 Grid (2 rows, 3 columns) :
+
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/e460846e-b599-4089-b9f9-2c25c82d1ebe)
+
+This image shows a grid with 2 rows and 3 columns. Each cell in the grid can contain content, and the grid structure helps in organizing this content.
+
+### Example of a 1 by 2 Grid (1 row, 2 columns) :
+
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/06b9c99b-20be-46f2-b8be-2cdd81ef39a1)
+
+This image shows a grid with 1 row and 2 columns. It demonstrates how the grid layout can be adjusted to fit different content needs.
+
+## Creating a Simple Grid :
+
+To create a simple grid, you can use the following CSS:
+
+### Example Code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 100px 100px;
+        }
+        .grid-item {
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+    </div>
+</body>
+</html>
+```
+Explanation:
+
+The display: grid property is used to create a grid layout. The grid-template-columns: 100px 100px property defines two columns each of 100px width. The divs inside the grid container no longer take up the whole line but are aligned next to each other as columns.
+
+Adding Column and Row Gaps :
+You can adjust the gaps between the columns and rows using column-gap and row-gap properties.
+
+Example:
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/01acc283-1b45-4193-8e30-a165cc71690c)
+
+```
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 20px; /* 20px gap between columns */
+    row-gap: 20px;    /* 20px gap between rows */
+}
+```
+
+Column Gap :
+
+> The column-gap property defines the space between the columns.
+ ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/9bd1281d-75d3-4dab-887e-d31a1c50ca07)
+
+Row Gap :
+
+> The row-gap property defines the space between the rows.
+
+Grid Columns with Fractional Units :
+You can use fractional units to make the columns responsive. The 1fr unit is a flexible unit that takes up one fraction of the available space.
 
 
-# Lesson 11: CSS grid :
+```
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+}
+```
 
- 
+Using 1fr 1fr 1fr makes three columns that equally divide the available space.
+
+
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/f8b2a032-6e2a-4a22-b472-c5354983d85a)
+
+
+Full-width Grid Items
+Use width: 100% to make the items fit within the container.
+
+```
+.grid-item {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+```
+
+# CSS Grid Layout for a `div`
+
+## Problem Statement:
+
+When using CSS Grid, a common issue is that the `div` no longer takes up the entire line, and its child elements are arranged in a grid format instead. Let's explore this with an example.
+
+## Example:
+
+1. **HTML Structure**:
+
+   ```html
+   <div class="grid-container">
+       <div>Item 1</div>
+       <div>Item 2</div>
+   </div>
+   ```
+
+2. **CSS Styles**:
+
+   ```css
+   .grid-container {
+       display: grid;
+       grid-template-columns: 100px 100px;
+   }
+   ```
+
+## Explanation:
+
+- **Step 1**: Define a `div` with a class of `grid-container`.
+- **Step 2**: Apply CSS to the `grid-container` to create a grid layout.
+
+The key properties used here are:
+
+- `display: grid;` - This turns the `div` into a grid container.
+- `grid-template-columns: 100px 100px;` - This defines two columns, each 100px wide.
+
+## Visual Representation:
+
+### Initial Structure:
+
+Without CSS Grid, the `div` would take up the whole line:
+
+![Initial \`div\` layout](https://github.com/karthikeya03/HTML-CSS/assets/120096427/35ee5886-19de-490c-ace9-ad21626f2e67)
+
+### After Applying CSS Grid:
+
+With the grid layout applied, the `div` no longer takes up the entire line, and the child elements are arranged in a 2-column grid:
+
+![Grid \`div\` layout](https://github.com/karthikeya03/HTML-CSS/assets/120096427/c92ffa38-5734-437a-828d-c12fda4e01a7)
+
+## Additional Tips:
+
+1. **Column Gaps**:
+   To add space between columns, use the `grid-gap` property:
+
+   ```css
+   .grid-container {
+       display: grid;
+       grid-template-columns: 100px 100px;
+       grid-gap: 10px;
+   }
+   ```
+
+2. **Responsive Design**:
+   For a responsive grid, use relative units like percentages or fractions:
+
+   ```css
+   .grid-container {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 10px;
+   }
+   ```
+
+3. **Aligning Items**:
+   You can also align items within the grid:
+
+   ```css
+   .grid-container {
+       display: grid;
+       grid-template-columns: 100px 100px;
+       align-items: center; /* Align items vertically */
+       justify-items: center; /* Align items horizontally */
+   }
+   ```
+4. use width : 100% to make the images fit in the container
+
+
+## Exercises :
+
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/4fb439e9-d543-4729-8c8e-4ed008add69e)
+
+Here are some exercises you can practice:
+
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/03ba64c3-ddb2-4f97-a7f9-3e53a4517a89)
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/93b8b0b9-888c-4b96-8aec-1314764c135c)
+
+# Lesson 12: Flexbox :
+> t s another way to create layouts
+> ts same as CSS grd but more flexible
+
+
