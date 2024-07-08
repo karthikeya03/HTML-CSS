@@ -801,28 +801,27 @@ Here are some exercises you can practice:
 
 In this lesson, we will learn about CSS Grid, which allows for perfectly aligned horizontal layouts by using rows and columns.
 
-## What is a Grid? :
-
-A grid is a layout that has rows and columns. Here are some visual examples:
+### 1. What is a Grid? :
+> A grid is a layout that has rows and columns. Here are some visual examples:
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/467d3066-4736-478c-a8f6-a1d05b699239)
 
-### Example of a 2 by 3 Grid (2 rows, 3 columns) :
+#### Example of a 2 by 3 Grid (2 rows, 3 columns) :
 
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/e460846e-b599-4089-b9f9-2c25c82d1ebe)
 
-This image shows a grid with 2 rows and 3 columns. Each cell in the grid can contain content, and the grid structure helps in organizing this content.
+> This image shows a grid with 2 rows and 3 columns. Each cell in the grid can contain content, and the grid structure helps in organizing this content.
 
-### Example of a 1 by 2 Grid (1 row, 2 columns) :
+#### Example of a 1 by 2 Grid (1 row, 2 columns) :
 
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/06b9c99b-20be-46f2-b8be-2cdd81ef39a1)
 
-This image shows a grid with 1 row and 2 columns. It demonstrates how the grid layout can be adjusted to fit different content needs.
+> This image shows a grid with 1 row and 2 columns. It demonstrates how the grid layout can be adjusted to fit different content needs.
 
-## Creating a Simple Grid :
+### 2. Creating a Simple Grid :
 
 To create a simple grid, you can use the following CSS:
 
-### Example Code:
+#### Example Code:
 
 ```html
 <!DOCTYPE html>
@@ -851,14 +850,13 @@ To create a simple grid, you can use the following CSS:
 </body>
 </html>
 ```
-Explanation:
+#### Explanation:
+> The display: grid property is used to create a grid layout. The grid-template-columns: 100px 100px property defines two columns each of 100px width. The divs inside the grid container no longer take up the whole line but are aligned next to each other as columns.
 
-The display: grid property is used to create a grid layout. The grid-template-columns: 100px 100px property defines two columns each of 100px width. The divs inside the grid container no longer take up the whole line but are aligned next to each other as columns.
+### 3. Adding Column and Row Gaps :
+> You can adjust the gaps between the columns and rows using column-gap and row-gap properties.
 
-Adding Column and Row Gaps :
-You can adjust the gaps between the columns and rows using column-gap and row-gap properties.
-
-Example:
+#### Example:
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/01acc283-1b45-4193-8e30-a165cc71690c)
 
 ```
@@ -870,18 +868,17 @@ Example:
 }
 ```
 
-Column Gap :
+### 5. Column Gap :
 
 > The column-gap property defines the space between the columns.
  ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/9bd1281d-75d3-4dab-887e-d31a1c50ca07)
 
-Row Gap :
+### 6. Row Gap :
 
 > The row-gap property defines the space between the rows.
 
-Grid Columns with Fractional Units :
-You can use fractional units to make the columns responsive. The 1fr unit is a flexible unit that takes up one fraction of the available space.
-
+### 7. Grid Columns with Fractional Units :
+> You can use fractional units to make the columns responsive. The 1fr unit is a flexible unit that takes up one fraction of the available space.
 
 ```
 .grid-container {
@@ -889,15 +886,14 @@ You can use fractional units to make the columns responsive. The 1fr unit is a f
     grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
 }
 ```
-
-Using 1fr 1fr 1fr makes three columns that equally divide the available space.
-
+<br>
+> Using 1fr 1fr 1fr makes three columns that equally divide the available space.
 
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/f8b2a032-6e2a-4a22-b472-c5354983d85a)
 
 
-Full-width Grid Items
-Use width: 100% to make the items fit within the container.
+### 8. Full-width Grid Items :
+> Use width: 100% to make the items fit within the container.
 
 ```
 .grid-item {
@@ -908,11 +904,14 @@ Use width: 100% to make the items fit within the container.
 }
 ```
 
-# CSS Grid Layout for a `div`
+### 9. CSS Grid Layout for a `div` :
+
+![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/4fb439e9-d543-4729-8c8e-4ed008add69e)
+
 
 ## Problem Statement:
 
-When using CSS Grid, a common issue is that the `div` no longer takes up the entire line, and its child elements are arranged in a grid format instead. Let's explore this with an example.
+> When using CSS Grid, a common issue is that the `div` no longer takes up the entire line, and its child elements are arranged in a grid format instead. Let's explore this with an example.
 
 ## Example:
 
@@ -944,11 +943,11 @@ The key properties used here are:
 - `display: grid;` - This turns the `div` into a grid container.
 - `grid-template-columns: 100px 100px;` - This defines two columns, each 100px wide.
 
-## Visual Representation:
+### Visual Representation:
 
-### Initial Structure:
+#### Initial Structure:
 
-Without CSS Grid, the `div` would take up the whole line:
+> Without CSS Grid, the `div` would take up the whole line:
 
 ![Initial \`div\` layout](https://github.com/karthikeya03/HTML-CSS/assets/120096427/35ee5886-19de-490c-ace9-ad21626f2e67)
 
@@ -993,12 +992,6 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
        justify-items: center; /* Align items horizontally */
    }
    ```
-4. use width : 100% to make the images fit in the container
-
-
-## Exercises :
-
-![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/4fb439e9-d543-4729-8c8e-4ed008add69e)
 
 Here are some exercises you can practice:
 
