@@ -33,7 +33,7 @@
 
 ### 4. Button :
 
-```
+```html
 <button> Hello </button>
 ```
 
@@ -41,7 +41,7 @@
 
 ### 5. Paragraph :
 
-```
+```html
 <p> This is a paragraph of text. </p>
 ```
 
@@ -49,7 +49,7 @@
 
 ### 6. Link to Another Website :
 
-```
+```html
 <a href="https://www.youtube.com"> Link to YouTube </a>
 ```
 
@@ -86,7 +86,7 @@
 
 ### 1. Applying CSS to Buttons :
 
-```
+```html
 <button> SUBSCRIBE </button>
 ```
 
@@ -94,7 +94,7 @@
 
 #### 2. CSS :
 
-```
+``` html
 <style>
 button {
   background-color: red;
@@ -110,7 +110,7 @@ button {
 
 #### Example :
 
-```
+```html
 <style>
 button {
   background-color: red;
@@ -170,7 +170,7 @@ code:
 
 - **margin-right**: Adds space to the right of an element.
 
-```
+``` html
 margin-right: 8px;
 ```
 
@@ -185,7 +185,7 @@ margin-right: 8px;
 
 > A pseudo-class used to define the style of an element when the mouse is over it.
 
-```
+``` html
 .subscribe-button:hover {
   background-color: white;
 }
@@ -195,7 +195,7 @@ margin-right: 8px;
 
 > Defines the style of an element when it is being clicked.
 
-```
+``` html
 .subscribe-button:active {
   background-color: blue;
 }
@@ -205,7 +205,7 @@ margin-right: 8px;
 
 > Defines the transparency of an element.
 
-```
+``` html
 .subscribe-button:active {
   opacity: 0.3;
 }
@@ -215,13 +215,13 @@ margin-right: 8px;
 
 > Defines the transition effect for properties.
 
-```
+``` html
 transition: opacity 1s;
 ```
 
 #### Example :
 
-```
+``` html
 .join-button:hover {
   background-color: blue;
   color: white;
@@ -237,7 +237,7 @@ transition: opacity 1s;
 
 #### Example :
 
-```
+``` html
 .tweet-button {
   box-shadow: 0 0 0 black; /* Takes 4 values */
 }
@@ -263,7 +263,7 @@ Here's an illustration :
 
 #### Example :
 
-```
+``` html
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 ```
 
@@ -293,7 +293,7 @@ Here's an illustration :
 
 #### Example for padding :
 
-```
+``` html
 padding-left : 30px;
 padding-top : 20px;
 padding-bottom : 30px;
@@ -348,7 +348,7 @@ padding-right : 20px;
 
 > changes the font
 
-```
+```css
  <style>
      .video.title {
        font-family : arial; // changes the font
@@ -365,7 +365,7 @@ padding-right : 20px;
 > Aligning the font adjusts the position of text within an element.
 > For example, to center-align text, you can use the `text-align` property in CSS.
 
-```
+```css
 <style>
   .video-title {
     text-align: center; /* Aligns the text to the center */
@@ -396,7 +396,7 @@ padding-right : 20px;
 
 #### Example :
 
-```
+```  html
 <p class="video-stats" 3.4 views `&#183` (HTML entity code for dot)
   Talking Tech and AI With google CEO Sundar Pichai!
   </p>
@@ -415,7 +415,7 @@ padding-right : 20px;
 > In CSS, a more specific selector has a higher priority.
 > For example, a class name selector is more specific than an element name selector.
 
-```
+``` css
 /* Element name selector */
 p {
   color: blue;
@@ -433,7 +433,7 @@ p {
 <br>
 In this example, if a paragraph (<p>) has the class highlight, the text will be red because the class name selector (.highlight) is more specific and takes priority over the element name selector
 
-```
+``` html
 <p class="highlight">This text will be red.</p>
 <p>This text will be blue.</p>
 ```
@@ -444,7 +444,7 @@ In this example, if a paragraph (<p>) has the class highlight, the text will be 
 
 Example:
 
-```
+``` css
 .highlight
 {
 text-decoration : underline;
@@ -466,7 +466,7 @@ text-decoration : underline;
    `<span> Hello </span>`
    example :
 
-```
+``` css 
    <span class = "span-edit"> The text that has to be edited </span>
    <style>
      .span-edit
@@ -485,7 +485,7 @@ Here is the illustration :
 
 > Adding margin to a text element creates space around the element. For example, you can add a left margin to a span element to move it to the right.
 
-```
+``` css
    <span class = "span-edit"> The text that has to be edited </span>
    <style>
      .span-edit
@@ -509,7 +509,7 @@ Here is the illustration :
 ### 1. Document Type Declaration :
 > The `<!DOCTYPE html>` declaration is not an HTML element; it's a special instruction that specifies the HTML version being used. It must be included at the beginning of every HTML document.
 
-```html
+``` html
 <!DOCTYPE html>
 ```
 
@@ -519,7 +519,7 @@ Here is the illustration :
 
 > The `<html>` element is the root element of an HTML page. It wraps all the content on the entire page.
 
-```html
+``` html
 <html>
   <!-- Content of the page goes here -->
 </html>
@@ -529,7 +529,7 @@ Here is the illustration :
 
 > The `<head>` element contains meta-information about the HTML document, such as the title of the page, links to stylesheets, and metadata.
 
-```html
+``` html
 <head>
   <title>First Website</title>
   <link rel="stylesheet" href="style.css">
@@ -541,7 +541,7 @@ Here is the illustration :
 
 > The `<title>` element defines the title of the HTML document, which appears in the browser's title bar or tab.
 
-```html
+``` html
 <title>First Website</title>
 ```
 
@@ -560,7 +560,7 @@ here is the image :
 
 > The `<body>` element contains all the content that is visible on the web page, including text, images, links, and other elements.
 
-```html
+``` html
 <body>
   <h1>Welcome to My Website</h1>
   <p>This is the content of my website.</p>
@@ -575,7 +575,7 @@ here is the image :
 
 Void elements in HTML do not have closing tags and are self-closing. Examples include `<img>`, `<link>`, `<br>`, and `<input>`.
 
-```html
+``` html
 <img src="image.jpg" alt="Description">
 <br>
 <input type="text" placeholder="Enter your name">
@@ -600,7 +600,7 @@ here is the image :
 
 #### Example :
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -628,7 +628,7 @@ Here are some exercises you can practice to solidify your understanding:
 
 To add an image in HTML, use the `<img>` tag with the `src` attribute specifying the link of the image:
 
-`<img src="(link of image)">`
+`<img src="(link of image)">` 
 
 ### Attributes :
 
@@ -692,7 +692,7 @@ There are three types of elements in HTML:
 
 Here is an example to switch from block to inline-block:
 
-```css
+``` css
 .video-author {
   display: inline-block;
 }
@@ -783,7 +783,7 @@ By default, paragraphs (`<p>`) in HTML have a margin on the top and bottom. This
 
 ### 8. Example CSS to Adjust Paragraph Margins
 
-```css
+``` css
 p {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -823,7 +823,7 @@ To create a simple grid, you can use the following CSS:
 
 #### Example Code:
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -859,7 +859,7 @@ To create a simple grid, you can use the following CSS:
 #### Example:
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/01acc283-1b45-4193-8e30-a165cc71690c)
 
-```
+``` css
 .grid-container {
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -880,7 +880,7 @@ To create a simple grid, you can use the following CSS:
 ### 7. Grid Columns with Fractional Units :
 > You can use fractional units to make the columns responsive. The 1fr unit is a flexible unit that takes up one fraction of the available space.
 
-```
+``` css
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
@@ -962,7 +962,7 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
 1. **Column Gaps**:
    To add space between columns, use the `grid-gap` property:
 
-   ```
+   ```css
    .grid-container {
        display: grid;
        grid-template-columns: 100px 100px;
@@ -973,7 +973,7 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
 2. **Responsive Design**:
    For a responsive grid, use relative units like percentages or fractions:
 
-   ```
+   ```css
    .grid-container {
        display: grid;
        grid-template-columns: 1fr 1fr;
@@ -984,7 +984,7 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
 3. **Aligning Items**:
    You can also align items within the grid:
 
-   ```
+   ```css
    .grid-container {
        display: grid;
        grid-template-columns: 100px 100px;
