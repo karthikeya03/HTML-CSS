@@ -962,7 +962,7 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
 1. **Column Gaps**:
    To add space between columns, use the `grid-gap` property:
 
-   ```css
+   ```
    .grid-container {
        display: grid;
        grid-template-columns: 100px 100px;
@@ -973,7 +973,7 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
 2. **Responsive Design**:
    For a responsive grid, use relative units like percentages or fractions:
 
-   ```css
+   ```
    .grid-container {
        display: grid;
        grid-template-columns: 1fr 1fr;
@@ -984,7 +984,7 @@ With the grid layout applied, the `div` no longer takes up the entire line, and 
 3. **Aligning Items**:
    You can also align items within the grid:
 
-   ```css
+   ```
    .grid-container {
        display: grid;
        grid-template-columns: 100px 100px;
