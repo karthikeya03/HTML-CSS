@@ -1002,11 +1002,21 @@ Here are some exercises you can practice:
 
 > Flexbox is another way to create layouts. It's similar to CSS Grid but more flexible.
 
+![image](https://github.com/user-attachments/assets/9128cb32-9108-4b0f-8239-e4f131217f10)
+
+
 ## Definitions
 
 - **display: flex;**: This makes the container a flex container and enables Flexbox layout.
 - **flex-direction: row;**: This sets the direction of the flex items to be in a row.
 - **justify-content**: Defines how the browser distributes space between and around content items along the main-axis of a flex container.
+
+> **Justify content and align-items should be used in flex boxes**
+> **Flex-direction : row : very important to keep items aligned left and right**
+>  **Flex-direction : coloumn : very important to keep items aligned top and bottom**
+
+  ![image](https://github.com/user-attachments/assets/4a92a309-c891-4031-8d8e-1529aa96ab44)
+
   - **center**: Centers the items in the container.
   - **space-between**: Distributes items evenly with the first item at the start and the last item at the end.
 - **align-items**: Defines how the browser distributes space between and around content items along the cross-axis of their container.
@@ -1014,6 +1024,8 @@ Here are some exercises you can practice:
   - **start**: Aligns the items to the start of the container.
   - **end**: Aligns the items to the end of the container.
   - **center**: Centers the items in the container.
+    
+![image](https://github.com/user-attachments/assets/7b6e341c-198e-4a31-9eb9-1bbef73f7f64)
 
 ## Examples
 
@@ -1190,6 +1202,9 @@ Here are some exercises you can practice:
 ### 1. Static
 
 - **Definition**: This is the default position for HTML elements. When an element is positioned static, it follows the normal flow of the document, which means it is not affected by top, bottom, left, or right properties.
+
+  ![image](https://github.com/user-attachments/assets/640a4fa1-abba-4d5b-bda0-5f97baa326c2)
+
 - **Example**:
 
 ```html
@@ -1204,6 +1219,9 @@ Here are some exercises you can practice:
   - **left**: Specifies the distance from the left of the viewport. If set to `50px`, the element will be 50px from the left edge of the viewport.
   - **right** and **bottom**: Similarly specify the distance from the right and bottom of the viewport respectively.
 - **Padding**: Adding padding ensures that the fixed header does not cover the content of the page.
+  
+  ![image](https://github.com/user-attachments/assets/359c810c-2aa2-43dd-8e6c-910bc10eabfb)
+
 - **Example**:
 
 ```html
@@ -1323,6 +1341,76 @@ By practicing these exercises, you can get a good understanding of how fixed pos
 
 # Lesson 15. Position Absolute and Relative
 
+![image](https://github.com/user-attachments/assets/7f09962f-4284-403e-b3d9-78253d555b45)
+
+
+## 1. Absolute Positioning :
+
+![image](https://github.com/user-attachments/assets/dabbc882-a8ad-4376-a4de-ee7a8e8dd20c)
+
+When an element is positioned absolutely, it is removed from the normal document flow and positioned relative to its nearest positioned ancestor (if any); otherwise, it is placed relative to the initial containing block.
+
+![image](https://github.com/user-attachments/assets/bd9fb972-9028-45c9-8b42-197af94d56d3)
+
+### Position Fixed vs. Position Absolute
+
+- **Position Fixed**: The element is positioned relative to the browser window. It does not move when the page is scrolled.
+
+  ![image](https://github.com/user-attachments/assets/3d362578-69c2-4779-a411-1da374f8dadb)
+
+- **Position Absolute**: The element is positioned relative to its nearest positioned ancestor. It moves with the page when scrolled.
+
+## 2. z-index :
+
+![image](https://github.com/user-attachments/assets/ad913141-b77b-4e18-9e11-aedad8f875eb)
+
+
+The `z-index` property determines the stack order of elements. Elements with a higher `z-index` will appear in front of those with a lower `z-index`.
+
+![image](https://github.com/user-attachments/assets/bc67005b-fa9d-4146-b6bc-28dd71639506)
+
+
+- **Example**:
+
+  ![image](https://github.com/user-attachments/assets/47431b4b-2510-4547-91c0-174bb769ab63)
+
+  In this example, the absolutely positioned element is on the header. If the `z-index` of the header is 1 and the `z-index` of the absolute element is 0, the header will appear on top.
+
+  ![image](https://github.com/user-attachments/assets/f4ad07fb-e7fa-4aab-93c4-05cfb4afff34)
+
+  Changing the `z-index` of the header to 1 and keeping the default `z-index` of the absolute element to 0 will make the header appear on top.
+
+Position absolute is particularly useful when an absolutely positioned element is inside a position fixed element. It will be placed relative to the position fixed element.
+
+![image](https://github.com/user-attachments/assets/c7ac4cea-8a14-474c-af9a-ef00e5ef1cc7)
+
+
+- **Example**:
+
+  ![image](https://github.com/user-attachments/assets/92f15bb7-2908-4b58-8246-81afa5871212)
+
+  In this example, the cross symbol is positioned at the corner of the sidebar to close it. The absolute position within the fixed position ensures it appears in the corner.
+
+## 3. Relative Positioning :
+
+![image](https://github.com/user-attachments/assets/8300f399-85fe-4793-838d-00d1efaadcae)
+
+When an element is positioned relatively, it is positioned relative to its normal position. This means it can be moved from its original position, but it still occupies the space in the document flow.
+
+- **Relative Positioning Example**:
+
+  ![image](https://github.com/user-attachments/assets/1c40e4f6-7000-42fa-8842-5e8746b13d51)
+
+  Even though the elements are fixed, using position relative allows them to move with the page.
+
+To keep a tiny object inside a main div, the main div should have `position: relative` and the tiny object should have `position: absolute`.
+
+# POSITION ABSOLUTE INSIDE POSITION RELATIVE
+
+![image](https://github.com/user-attachments/assets/0f6b99df-f3ac-48e3-bd84-513edba57c78)
+
+# Lesson 15. Position Absolute and Relative
+
 ## 1. Absolute Positioning
 
 When an element is positioned absolutely, it is removed from the normal document flow and positioned relative to its nearest positioned ancestor (if any); otherwise, it is placed relative to the initial containing block.
@@ -1371,15 +1459,134 @@ When an element is positioned relatively, it is positioned relative to its norma
 
 To keep a tiny object inside a main div, the main div should have `position: fixed` and the tiny object should have `position: absolute`.
 
-# Final Lession : Some more CSS properties : 
+### Responsiveness and Media Queries
 
-1. hover : 
+To make the website look good on every screen size, use media queries:
 
-```css 
-.sidebar-link: hover {
-backgorund-color: grey;
+![image](https://github.com/user-attachments/assets/ba90a23e-ee8a-4398-a399-e3660a96912f)
+
+#### Media Queries Examples
+
+```css
+@media (max-width: 600px) {
+    /* Styles for screens with a width of 600px or less */
+}
+
+@media (min-width: 1000px) {
+    /* Styles for screens with a width of 1000px or more */
+}
+
+@media (max-width: 600px) and (min-width: 1000px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 ```
-> gives gray color when hovered to 
+
+This example sets three columns when the media size is between 600px and 1000px. For less than 600px, adjust to two columns, and for more than 1000px, adjust to four columns.
+
+![image](https://github.com/user-attachments/assets/7667289b-df45-4b71-a7e8-d221a3167714)
+
+## Final Lesson: Some More CSS Properties
+
+### 1. Hover
+
+```css
+.sidebar-link:hover {
+    background-color: grey;
+}
+```
+
+> Gives a grey background color when hovered over.
+
+![image](https://github.com/user-attachments/assets/a6c64eab-d1a8-483c-af5e-165ac39a6402)
+
+### 2. CSS Selectors
+
+1. **With Comma**: Target multiple classes at the same time.
+2. **With Space**: Target `<img>` elements inside elements with `class="class1"`.
+3. **With a Dot**: Target an element within a specific class, not the entire page.
+
+![image](https://github.com/user-attachments/assets/b12ad8ed-4fc4-45eb-bb02-0a0e46d7a154)
+<br>
+![image](https://github.com/user-attachments/assets/a600de17-f9d5-4bbb-9d9d-b465bee79996)
+
+### 3. Tooltips
+
+Tooltips appear when hovered over an icon. Set the opacity of the button to zero normally, and to one on hover.
+
+![image](https://github.com/user-attachments/assets/cccc0dc0-c405-48ac-a83c-82d6fa418e31)
+
+### 4. White Space No Wrap
+
+![image](https://github.com/user-attachments/assets/7ad54342-8b15-4ab8-adb8-2d98774797f3)
+
+### Exercises :
+
+![image](https://github.com/user-attachments/assets/fcd98f5d-fba9-41ae-a080-3a07380cfa54)
+![image](https://github.com/user-attachments/assets/c3153f95-9814-41d1-8aac-3906e1822e86)
+
+### 5. Padding
+
+Instead of using individual padding for each side:
+
+![image](https://github.com/user-attachments/assets/317fcf6e-61f4-462f-a394-094333ccd389)
+
+Use shorthand padding:
+
+```css
+padding: 4px;
+```
+
+This sets padding on all four sides.
+
+![image](https://github.com/user-attachments/assets/cda955c3-d214-4738-b46e-8068e4232e97)
+
+The order for shorthand padding is top, right, bottom, and left. Same for margin.
+
+### 6. Inheritance
+
+A text property set on an outer element will be passed down to inner elements.
+
+![image](https://github.com/user-attachments/assets/5f88e216-2a6f-4fae-a632-92079e547890)
+
+It mostly works with text properties only.
+
+### 7. CSS Specificity
+
+If multiple CSS selectors change the same property on the same element, CSS Specificity determines which selector "wins" (which style gets applied).
+
+![image](https://github.com/user-attachments/assets/23c43b80-2dc5-4a62-b2f6-3e861f15c500)
+
+### 8. CSS Specificity Rules
+
+Here's the full set of CSS Specificity Rules:
+
+![image](https://github.com/user-attachments/assets/320f430f-12f7-4f29-b6ab-c9b2bae0085b)
+
+### 9. Semantic Elements
+
+Elements that work the same way as `<div>`, but also give the HTML meaning when screen readers, search engines, or other devices read the website.
+
+> Common semantic elements include: `<header>, <nav>, <main>, <section>, etc.`
+![image](https://github.com/user-attachments/assets/6cc0ce66-d63c-45f7-b4dc-e5b63c7cf27a)
+> Nav: The <nav> tag defines a set of navigation links.
+> Notice that NOT all links of a document should be inside a <nav> element.
+![image](https://github.com/user-attachments/assets/01262be5-9aa2-473b-85d8-fbef6b7e7e16)
+
+### 10. Comments
+
+![image](https://github.com/user-attachments/assets/5e36a1cf-b51a-4d6e-b2a2-2465eadd3bd1)
+
+### Last Image
+
+![image](https://github.com/user-attachments/assets/b329bc84-5421-46d8-89e1-6bbfd7415f88)
+
+### Exercises :
+![image](https://github.com/user-attachments/assets/be9919f0-7890-43cc-b19d-0a550058ed17)
+<br>
+![image](https://github.com/user-attachments/assets/c213c791-3d90-48af-8954-70050e03fa4a)
+<br>
+![image](https://github.com/user-attachments/assets/d99d86af-9ccd-4f52-aee7-1b4f76adf803)
 
 
