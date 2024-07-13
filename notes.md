@@ -998,8 +998,388 @@ Here are some exercises you can practice:
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/03ba64c3-ddb2-4f97-a7f9-3e53a4517a89)
 ![image](https://github.com/karthikeya03/HTML-CSS/assets/120096427/93b8b0b9-888c-4b96-8aec-1314764c135c)
 
-# Lesson 12: Flexbox :
-> t s another way to create layouts
-> ts same as CSS grd but more flexible
+# Lesson 12: Flexbox
+
+> Flexbox is another way to create layouts. It's similar to CSS Grid but more flexible.
+
+## Definitions
+
+- **display: flex;**: This makes the container a flex container and enables Flexbox layout.
+- **flex-direction: row;**: This sets the direction of the flex items to be in a row.
+- **justify-content**: Defines how the browser distributes space between and around content items along the main-axis of a flex container.
+  - **center**: Centers the items in the container.
+  - **space-between**: Distributes items evenly with the first item at the start and the last item at the end.
+- **align-items**: Defines how the browser distributes space between and around content items along the cross-axis of their container.
+  - **stretch**: Stretches the items to fill the container.
+  - **start**: Aligns the items to the start of the container.
+  - **end**: Aligns the items to the end of the container.
+  - **center**: Centers the items in the container.
+
+## Examples
+
+```html
+<div style="display: flex; justify-content: center;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+</div>
+```
+
+![justify-content: center](https://github.com/user-attachments/assets/f9bef927-d693-49ba-9eb2-ccf968fb3d09)
+
+```html
+<div style="display: flex; justify-content: space-between;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+</div>
+```
+
+![justify-content: space-between](https://github.com/user-attachments/assets/40cb480f-39ed-4191-8514-65f1c83b5ce0)
+
+```html
+<div style="display: flex; justify-content: space-between; align-items: stretch;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+</div>
+```
+
+![align-items: stretch](https://github.com/user-attachments/assets/d38ce8ac-e37d-434a-b2d5-48a2aaed223e)
+
+```html
+<div style="display: flex; justify-content: space-between; align-items: start;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+</div>
+```
+
+![align-items: start](https://github.com/user-attachments/assets/db765625-ef9c-412e-bc62-d89757bcf1af)
+
+```html
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+  <div style="background-color: lightpink; width: 100px;">100px</div>
+  <div style="background-color: lightblue; width: 100px;">100px</div>
+</div>
+```
+
+![align-items: center](https://github.com/user-attachments/assets/bd523fdb-bf4a-4a46-959b-22710e640f9a)
+
+## Practical Exercise
+
+### Create a Header with Flexbox
+
+1. Create a `div` named `header`.
+2. Create three `div` elements: `left-section`, `middle-section`, `right-section`.
+
+```html
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  width: 200px;
+}
+
+.middle-section {
+  flex: 1;
+}
+
+.right-section {
+  width: 200px;
+  max-width: 300px; /* The maximum width when flexed can be 300px */
+}
+```
+
+![Flexbox Header](https://github.com/user-attachments/assets/190d0610-7759-493f-a7ef-eaf6186b7387)
+
+![Flexbox Practice](https://github.com/user-attachments/assets/3429fab5-4775-44ff-9e41-6df2f495309b)
+
+```
+## Additional Code Examples
+
+```html
+<div style="display: flex; justify-content: center;">
+  justify content: center;
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  justify content: space-between;
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch;">
+  justify content: space-between;
+  align-items: stretch;
+  align-items: start;
+  align-items: end;
+  align-items: center;
+</div>
+```
+
+## Additional Background Color Example
+
+```html
+<div style="background-color: lightblue; width: 100px;">100px</div>
+<div style="background-color: lightpink; width: 100px;">100px</div>
+<div style="background-color: lightblue; width: 100px;">100px</div>
+```
+
+![Background Color Example](https://github.com/user-attachments/assets/6f076b0d-2b6f-4b67-971b-f820219ca57e)
+
+# Lesson 13: Nested Flexbox :
+
+## Definitions :
+
+- **box-shadow: inset 1px 2px 5px rgba(0,0,0, 0.15);**: This applies an inset shadow to the element.
+  - **1px horizontal**: The horizontal offset of the shadow.
+  - **2px to bottom**: The vertical offset of the shadow.
+  - **0.15 transparency**: The transparency level of the shadow.
+- **justify-content: space-between;**: Distributes items evenly with the first item at the start and the last item at the end.
+
+### Preventing Shrinkage
+
+- **flex-shrink: 0;**: To prevent certain items from shrinking.
+
+```html
+{
+  flex-shrink: 0;
+}
+```
+
+### Allowing Shrinkage
+
+- **width: 0;**: To allow the item to shrink.
+
+```html
+{
+  width: 0;
+}
+```
+
+## Examples
+
+```html
+<div style="display: flex; justify-content: space-between; box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);">
+  <div style="background-color: lightblue; width: 100px; flex-shrink: 0;">100px, No Shrink</div>
+  <div style="background-color: lightpink; width: 0; flex: 1;">Flexible Shrink</div>
+  <div style="background-color: lightblue; width: 100px;">100px, Shrink</div>
+</div>
+```
+
+## Exercises
+
+Here are some exercises you can practice:
+
+![Nested Flexbox Exercise 1](https://github.com/user-attachments/assets/86efedfc-dfb5-4df7-9ff5-c34242c303d8)
+
+![Nested Flexbox Exercise 2](https://github.com/user-attachments/assets/57570be1-6c60-4dca-a6ac-c7455511fb4f)
+
+![Nested Flexbox Exercise 3](https://github.com/user-attachments/assets/484ba4f4-5fc0-4de6-844e-77ab453c717b)
+
+# Lesson 14: CSS Positioning
+
+## Types of Positions:
+
+![image](https://github.com/user-attachments/assets/5a391a79-d15b-4345-a935-ea41d2add9f1)
+
+
+### 1. Static
+
+- **Definition**: This is the default position for HTML elements. When an element is positioned static, it follows the normal flow of the document, which means it is not affected by top, bottom, left, or right properties.
+- **Example**:
+
+```html
+<div style="height: 100px; width: 100px; position: static;"></div>
+```
+
+### 2. Fixed
+
+- **Definition**: An element with a fixed position is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. It is removed from the normal document flow.
+- **Properties**:
+  - **top**: Specifies the distance from the top of the viewport. If set to `0px`, the element sticks to the top when scrolled.
+  - **left**: Specifies the distance from the left of the viewport. If set to `50px`, the element will be 50px from the left edge of the viewport.
+  - **right** and **bottom**: Similarly specify the distance from the right and bottom of the viewport respectively.
+- **Padding**: Adding padding ensures that the fixed header does not cover the content of the page.
+- **Example**:
+
+```html
+<div style="height: 100px; width: 100px; position: fixed; top: 0px; left: 50px;"></div>
+```
+
+#### Padding
+
+Adding padding ensures that the fixed header does not cover the content of the page.
+
+![image](https://github.com/user-attachments/assets/876a57ee-a704-442e-91bc-5b9de91577bc)
+
+## Exercises
+
+### Exercise 1
+
+- **Description**: Position a header at the top of the page with fixed positioning.
+- **HTML**:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    body {
+      padding-top: 50px; /* Add padding to avoid content being hidden by the fixed header */
+    }
+  </style>
+</head>
+<body>
+  <header>Fixed Header</header>
+  <p>Content goes here...</p>
+</body>
+</html>
+```
+
+### Exercise 2
+
+- **Description**: Create a sidebar that remains fixed on the left side of the page when scrolling.
+- **HTML**:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .content {
+      margin-left: 220px; /* Add margin to avoid content being hidden by the fixed sidebar */
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">Fixed Sidebar</div>
+  <div class="content">
+    <p>Content goes here...</p>
+  </div>
+</body>
+</html>
+```
+
+### Exercise 3
+
+- **Description**: Create a footer that remains fixed at the bottom of the page.
+- **HTML**:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <p>Content goes here...</p>
+  <div class="footer">Fixed Footer</div>
+</body>
+</html>
+```
+
+By practicing these exercises, you can get a good understanding of how fixed positioning works and how to use it effectively in your web design projects :
+
+![image](https://github.com/user-attachments/assets/f9199a69-dcb4-46ed-b1fe-f8bb345f5889)
+<br>
+![image](https://github.com/user-attachments/assets/de4f4f87-033d-422c-ba97-01a413a036ba)
+<br>
+![image](https://github.com/user-attachments/assets/fc8fbd9d-7ebe-40a3-bd38-2be8440a4e5e)
+
+
+# Lesson 15. Position Absolute and Relative
+
+## 1. Absolute Positioning
+
+When an element is positioned absolutely, it is removed from the normal document flow and positioned relative to its nearest positioned ancestor (if any); otherwise, it is placed relative to the initial containing block.
+
+![image](https://github.com/user-attachments/assets/bd9fb972-9028-45c9-8b42-197af94d56d3)
+
+### Position Fixed vs. Position Absolute
+
+- **Position Fixed**: The element is positioned relative to the browser window. It does not move when the page is scrolled.
+
+  ![image](https://github.com/user-attachments/assets/3d362578-69c2-4779-a411-1da374f8dadb)
+
+- **Position Absolute**: The element is positioned relative to its nearest positioned ancestor. It moves with the page when scrolled.
+
+## 2. z-index
+
+The `z-index` property determines the stack order of elements. Elements with a higher `z-index` will appear in front of those with a lower `z-index`.
+
+- **Example**:
+
+  ![image](https://github.com/user-attachments/assets/47431b4b-2510-4547-91c0-174bb769ab63)
+
+  In this example, the absolutely positioned element is on the header. If the `z-index` of the header is 1 and the `z-index` of the absolute element is 0, the header will appear on top.
+
+  ![image](https://github.com/user-attachments/assets/f4ad07fb-e7fa-4aab-93c4-05cfb4afff34)
+
+  Changing the `z-index` of the header to 1 and keeping the default `z-index` of the absolute element to 0 will make the header appear on top.
+
+Position absolute is particularly useful when an absolutely positioned element is inside a position fixed element. It will be placed relative to the position fixed element.
+
+- **Example**:
+
+  ![image](https://github.com/user-attachments/assets/92f15bb7-2908-4b58-8246-81afa5871212)
+
+  In this example, the cross symbol is positioned at the corner of the sidebar to close it. The absolute position within the fixed position ensures it appears in the corner.
+
+## 3. Relative Positioning
+
+When an element is positioned relatively, it is positioned relative to its normal position. This means it can be moved from its original position, but it still occupies the space in the document flow.
+
+- **Relative Positioning Example**:
+
+  ![image](https://github.com/user-attachments/assets/1c40e4f6-7000-42fa-8842-5e8746b13d51)
+
+  Even though the elements are fixed, using position relative allows them to move with the page.
+
+To keep a tiny object inside a main div, the main div should have `position: fixed` and the tiny object should have `position: absolute`.
+
+# Final Lession : Some more CSS properties : 
+
+1. hover : 
+
+```css 
+.sidebar-link: hover {
+backgorund-color: grey;
+}
+```
+> gives gray color when hovered to 
 
 
