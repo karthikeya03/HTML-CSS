@@ -29,7 +29,7 @@
 
 ### 3. HTML Elements :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg%2001.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/mg%2001.png)
 
 ### 4. Button :
 
@@ -37,7 +37,7 @@
 <button> Hello </button>
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image1.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image1.png)
 
 ### 5. Paragraph :
 
@@ -45,7 +45,7 @@
 <p> This is a paragraph of text. </p>
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image2.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image2.png)
 
 ### 6. Link to Another Website :
 
@@ -61,13 +61,13 @@
 <a href="https://www.youtube.com" target="_blank"> Link to YouTube </a>
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image3.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image3.png)
 
 ### 7. Extra Spaces and New Lines :
 
 > Extra spaces and new lines in HTML are generally ignored.
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image4.jpeg)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image4.jpeg)
 
 ### 8. Indentation :
 
@@ -75,8 +75,8 @@
 
 ### Exercises You Can Practice on HTML :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1233.png)
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image6.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/1233.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image6.png)
 
 <br>
 
@@ -90,7 +90,7 @@
 <button> SUBSCRIBE </button>
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg2.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/mg2.png)
 
 #### 2. CSS :
 
@@ -102,7 +102,7 @@ button {
 </style>
 ```
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image7.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image7.png)
 
 ### 3. CSS Selectors :
 
@@ -135,7 +135,7 @@ background-color: rgb(255, 0, 0);
 - **border-radius**: Defines the roundness of the corners.
 - **cursor**: Defines the type of cursor to be displayed.
 
-  ![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image8.png)
+  ![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image8.png)
 
 ### 6. Creating a Join Button :
 
@@ -176,8 +176,8 @@ margin-right: 8px;
 
 ### Exercises You Can Practice on CSS :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image9.png)
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/image10.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image9.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/image10.png)
 
 # Lession 3. Hovers, Transitions, and Shadows :
 
@@ -255,7 +255,7 @@ transition: opacity 1s;
 
 Here's an illustration :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/MG3.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/MG3.png)
 
 ### 6. RGBA Value :
 
@@ -271,11 +271,11 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 
 Here's an illustration :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/mg4.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/mg4.png)
 
 ### Exercises You Can Practice on Hovers, Transitions, and Shadows :
 
-![](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/end.png)
+![](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/end.png)
 
 # Lession 4. Chrome DevTools & CSS Box Model :
 
@@ -285,7 +285,7 @@ Here's an illustration :
 > `. open` the inspect button to look at the developer tools of any website of your choice
 > `. click` on the cursor button on the left most to find different elements adn their css, HTML
 
-![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/hello1.png)
 
 ### 2. CSS Box model :
 
@@ -315,7 +315,7 @@ padding-right : 20px;
 
 4. **Margin**: `The outermost space, providing distance between the element and other elements.` <be>
 
-![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello2.png)
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/hello2.png)
 
 ### CSS Example :
 
@@ -337,8 +337,8 @@ padding-right : 20px;
 
 ### Exercises You Can Practice DevTools & CSS Box Models on :
 
-![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1.1.png) <br>
-![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/1.png)
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/1.1.png) <br>
+![CSS BOX MODEL](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/1.png)
 
 # Lession 5. How to style text :
 
@@ -381,7 +381,7 @@ padding-right : 20px;
 > <br>
 > here is the illustration :
 
-![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/z.1.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/z.1.png)
 
 ### 4. HTML Entity
 
@@ -457,10 +457,10 @@ text-decoration : underline;
 
 1. Strong element : creates bold text on the webpage :
    here is the illustration :
-   ![strong](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.1.png)
+   ![strong](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/y.1.png)
 2. u element : creates text that is underlined
    here is the illustration :
-   ![u](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.2.png)
+   ![u](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/y.2.png)
 
 3. span element : give it any class adn style it ourselves :
    `<span> Hello </span>`
@@ -477,7 +477,7 @@ text-decoration : underline;
 ```
 
 Here is the illustration :
-![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y,3.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/y,3.png)
 
 > Output : `The text will be red `
 
@@ -498,8 +498,8 @@ Here is the illustration :
 
 ### Exercises You Can Practice on Text Styles :
 
-![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.4.png)
-![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/y.5.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/y.4.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/y.5.png)
 
 
 # Lession 6. The HTML Structure :
@@ -513,7 +513,7 @@ Here is the illustration :
 <!DOCTYPE html>
 ```
 
-![width](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.1.png)
+![width](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/h.1.png)
 
 ### 2. HTML Element :
 
@@ -535,7 +535,7 @@ Here is the illustration :
   <link rel="stylesheet" href="style.css">
 </head>
 ```
-![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.2.png)
+![body](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/h.2.png)
 
 ### 4. Title Element :
 
@@ -554,7 +554,7 @@ Here is the illustration :
 ```
 
 here is the image : 
- ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.3.png)
+ ![body](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/h.3.png)
 
 ### 6. Body Element :
 
@@ -596,7 +596,7 @@ Void elements in HTML do not have closing tags and are self-closing. Examples in
 </head>
 ```
 here is the image : 
-![font](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.11.png)
+![font](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/h.11.png)
 
 #### Example :
 
@@ -619,7 +619,7 @@ here is the image :
 
 Here are some exercises you can practice to solidify your understanding:
 
-![HTML Structure Exercises](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/h.12.png)
+![HTML Structure Exercises](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/h.12.png)
 
 
 # Lesson 7: Images and Text Box :
@@ -654,7 +654,7 @@ To add an image in HTML, use the `<img>` tag with the `src` attribute specifying
 
 ### Example :
 
-![Image Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello1.png)
+![Image Example](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/hello1.png)
 
 ## Input Elements :
 
@@ -674,13 +674,13 @@ To create a checkbox in HTML, use the `<input>` element with the `type` attribut
 
 The `placeholder` attribute specifies a short hint that describes the expected value of an input field.
 
-![Placeholder Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello2.png)
+![Placeholder Example](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/hello2.png)
 
 ## Exercises :
 
 Here are some exercises you can practice:
 
-![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello3.png) ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/hello4.png)
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/hello3.png) ![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/hello4.png)
 
 # Lesson 8: CSS Display Property :
 
@@ -698,13 +698,13 @@ Here is an example to switch from block to inline-block:
 }
 ```
 
-![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/e.2.png)
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/e.2.png)
 
 ## Exercises :
 
 Here are some exercises you can practice:
 
-![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/e4.png)
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/e4.png)
 
 # Lesson 9: The Div Element :
 
@@ -717,16 +717,16 @@ Here are some exercises you can practice:
 - It can contain any other elements inside.
 - We can put any elements in the `<div>`, making them containers.
 
-![dv2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/a1.png)
+![dv2](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/a1.png)
 
 
 ## Exercises :
 
 Here are some exercises you can practice:
 
-![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m3.png) 
-![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m2.png) 
-![Exercise 3](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m1.png) 
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/m3.png) 
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/m2.png) 
+![Exercise 3](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/m1.png) 
 
 # Lesson 10: Nested Layouts Technique :
 
@@ -738,7 +738,7 @@ Mastering layouts in HTML is essential for creating visually appealing and well-
 
 2. **Horizontal Layout**: This technique places elements side by side, like a row. It is ideal for creating navigation bars, image galleries, or any structure where elements are aligned next to each other.
 
-![Vertical and Horizontal Layouts](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/121.png)
+![Vertical and Horizontal Layouts](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/121.png)
 
 By combining vertical and horizontal layouts, you can create complex and flexible designs suitable for any website.
 
@@ -748,7 +748,7 @@ Nested layouts involve placing one type of layout inside another, allowing for i
 
 Here is an example:
 
-![Nested Layout Example](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/123.png)
+![Nested Layout Example](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/123.png)
 
 In this example:
 - There is a primary horizontal layout.
@@ -794,8 +794,8 @@ p {
 
 Here are some exercises you can practice:
 
-![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m4.png) 
-![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustMain/m5.png) 
+![Exercise 1](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/m4.png) 
+![Exercise 2](https://raw.github.com/karthikeya03/HTML-CSS/JustImages/m5.png) 
 
 # Lesson 11: CSS Grid :
 
